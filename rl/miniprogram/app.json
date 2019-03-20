@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/poetry/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#31DF9D",
+    "navigationBarTitleText": "日历小文艺",
+    "navigationBarTextStyle": "black",
+    "backgroundColorTop": "#31DF9D",
+    "disableScroll": true,
+    "backgroundColorBottom": "#31DF9D"
+  }
+}
