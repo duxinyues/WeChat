@@ -1,0 +1,6 @@
+/* pages/SmallClass/SmallClass.wxss */
+@import '../communal/communal.wxss';
+.buttonPR{
+  position: relative;
+  right: 40rpx;
+}

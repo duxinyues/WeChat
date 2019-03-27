@@ -1,0 +1,57 @@
+<!--pages/activity/activity.wxml-->
+<view class='back height90 margin-bottom20 flex-space-around font-size14 font-wei'>
+  <view class='flex-start'>
+    <view class='position-relative' bindtap='clickShow'>
+      <text>{{showData}}</text>
+      <view class='select-item' wx:if="{{showSelect}}">
+        <view class='padding10' wx:for="{{showSelectItem}}" data-index="{{index}}" catchtap='setText'>{{item.name}}</view>
+      </view>
+    </view>
+    <view>
+      <image src='/img/image27.png'  class='width-30 height30'></image>
+    </view>
+  </view>
+  <view  class='flex-start'>
+    <view class='position-relative' bindtap='clickShow2'>
+      <text>{{showData2}}</text>
+      <view class='select-item' wx:if="{{showSelect2}}">
+        <view class='padding10' wx:for="{{showSelectItem2}}" data-index="{{index}}" catchtap='setText2'>{{item.name}}</view>
+      </view>
+    </view>
+    <view>
+      <image src='/img/image27.png'  class='width-30 height30'></image>
+    </view>
+  </view>
+  <view class='flex-start'>
+    <view class='position-relative' bindtap='clickShow3'>
+      <text>{{showData3}}</text>
+      <view class='select-item' wx:if="{{showSelect3}}">
+        <view class='padding10' wx:for="{{showSelectItem3}}" data-index="{{index}}" catchtap='setText3'>{{item.name}}</view>
+      </view>
+    </view>
+    <view>
+      <image src='/img/image27.png'  class='width-30 height30'></image>
+    </view>
+  </view>
+</view>
+<view class='margin2'>
+  <view class=' back border-solid-radius overflow-hidden'>
+    <view class='height240'>
+      <image src='/img/image22.png'></image>
+    </view>
+    <view class='overflow-hidden margin-top20'>
+      <view class='float-left'>
+        <view class='font-wei font-size14 text-indent1'>标题内容标题</view>
+        <view class='font-size13 text-indent1  colorFFF'>发布时间：2019/1/23</view>
+        <view class='font-size13 text-indent1  colorFFF'>北京市某某街道</view>
+        <view class='font-size13 text-indent1 margin-bottom20'>
+          活动费用
+          <text class='font-size14 font-wei colorReb'>￥120.0/人</text>
+        </view>
+      </view>
+      <view class='float-right'>
+        <button class='buttonPR backC colorF'  bindtap='clickApplyCourse'>立即参加</button>
+      </view>
+    </view>
+  </view>
+</view>

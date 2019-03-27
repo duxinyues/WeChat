@@ -1,0 +1,18 @@
+<!--pages/invoiceAddr/invoiceAddr.wxml-->
+<view class='padding2020'>
+  <view class='back padding2020 border-solid-radius'>
+    <view class='flex-between'>
+      <view class='font-size14'>
+        <text class='font-wei'>用户姓名</text>
+        <text class='colorFFF margin-left20'>123432422</text>
+      </view>
+      <view class='font-size14 colorBlue'>编辑</view>
+    </view>
+    <view class='padding20 border-bottom'>上海市某某路口</view>
+    <view class='padding20 overflow-hidden'>
+      <button class='but-blue2 font-size14 float-right margin-left20' bindtap='deleteAddr'>删除</button>
+      <button class='but-blue2 font-size14 float-right' bindtap='defaultAddr'>默认地址</button>
+    </view>
+  </view>
+</view>
+<button class='but-bottom' bindtap='clickInvoiceAddAddr'>新增地址</button>

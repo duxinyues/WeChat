@@ -1,0 +1,5 @@
+/* pages/advisory/advisory.wxss */
+@import '../communal/communal.wxss';
+.advisoryHead{
+  height: 220rpx;
+}

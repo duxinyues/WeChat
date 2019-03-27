@@ -1,0 +1,83 @@
+<!--pages/course/course.wxml-->
+<view class='course-swiper'>
+<swiper indicator-dots="true" indicator-color="white" autoplay="true" class='swiperStyle'>
+  <swiper-item>
+      <image src="/img/test1.png" class=""/>
+  </swiper-item>
+  <swiper-item>
+      <image src="/img/test1.png" class=""/>
+  </swiper-item>
+  <swiper-item>
+      <image src="/img/test1.png" class=""/>
+  </swiper-item>
+  <swiper-item>
+      <image src="/img/test1.png" class=""/>
+  </swiper-item>
+  <swiper-item>
+      <image src="/img/test1.png" class=""/>
+  </swiper-item>
+</swiper>
+</view>
+
+<view class='tab-nav'>
+  <view class='tab-nav-item' bindtap='clickPrijectAll'>
+    <image src='../../img/image_1.png'></image>
+    <view>项目总</view>
+  </view>
+    <view class='tab-nav-item' bindtap='clickManpower'>
+      <image src='../../img/image_2.png'></image>
+    <view>人力</view>
+  </view>
+    <view class='tab-nav-item' bindtap='clickMarketing'>
+    <image src='../../img/image_3.png'></image>
+    <view>营销</view>
+  </view>
+    <view class='tab-nav-item' bindtap=''>
+      <image src='../../img/image_4.png'></image>
+    <view>工程</view>
+  </view>
+    <view class='tab-nav-item' bindtap=''>
+    <image src='../../img/image_5.png'></image>
+    <view>精装修</view>
+  </view>
+    <view class='tab-nav-item' bindtap=''>
+      <image src='../../img/image_6.png'></image>
+    <view>成本</view>
+  </view>
+    <view class='tab-nav-item' bindtap=''>
+    <image src='../../img/image_7.png'></image>
+    <view>文旅</view>
+  </view>
+    <view class='tab-nav-item' bindtap=''>
+      <image src='../../img/image_8.png'></image>
+    <view>设计</view>
+  </view>
+      <view class='tab-nav-item' bindtap=''>
+      <image src='../../img/image_9.png'></image>
+    <view>财务</view>
+  </view>
+      <view class='tab-nav-item' bindtap=''>
+      <image src='../../img/image_10.png'></image>
+    <view>其他</view>
+  </view>  
+</view>
+
+<import src="../templates/courses" />
+<template is="courses1" data="{{coursesData}}"/>
+<template is="courses11" data="{{coursesData11}}"/>
+<image src="/img/test1.png" class="imageNow"/>
+<template is="courses12" data="{{coursesData12}}"/>
+<template is="courses4" data="{{coursesData4}}"/>
+<!---
+<template is="courses1" data="{{courses1Title:'近期开课'}}"/>
+
+<import src="../templates/courses" />
+<template is="courses1" data="{{courses1Title:'高价班'}}"/>
+
+<image src="/img/test1.png" class="imageNow"/>
+
+
+<template is="courses1" data="{{courses1Title:'课程预告'}}"/>
+
+
+<template is="courses2" data="{{courses2Title:'热点推荐'}}"/>---->

@@ -1,0 +1,7 @@
+<!--pages/payment/payment.wxml-->
+<view class='height240 font-size38 font-wei colorBlue flex1'>￥1234.0</view>
+<view class='flex-between padding2020'>
+  <view>收款方</view>
+  <view>收款公司</view>
+</view>
+<button class='margin2 backC colorF' bindtap='clickGood'>立即支付</button>

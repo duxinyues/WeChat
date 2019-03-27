@@ -1,0 +1,9 @@
+/* pages/applyCourse/applyCourse.wxss */
+@import '../communal/communal.wxss';
+page{
+  background-color: #F3F3F3;
+}
+.applyBody{
+  padding: 35px 30px; 
+  line-height: 90rpx;
+}

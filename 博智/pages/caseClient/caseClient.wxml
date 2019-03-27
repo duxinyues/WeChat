@@ -1,0 +1,24 @@
+<!--pages/caseClient/caseClient.wxml-->
+<view class='padding2020'>
+  <view class='font-wei500 font-size18 text-align padding20'>我们的合作伙伴</view>
+  <view class='font-size14 font-wei400'>实现规模化,内容省略</view>
+  <view class='margin-top20 flex-warp9'>
+    <view class='padding2020 clientImage margin-bottom20'>
+      <view class=' height120'>
+        <image src='/img/image24.png'></image>
+      </view>
+    </view>
+
+    <view class='padding2020 clientImage margin-bottom20'>
+      <view class=' height120'>
+        <image src='/img/image24.png'></image>
+      </view>
+    </view>
+
+    <view class='padding2020 clientImage margin-bottom20'>
+      <view class=' height120'>
+        <image src='/img/image24.png'></image>
+      </view>
+    </view>
+  </view>
+</view>

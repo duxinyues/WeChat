@@ -1,0 +1,18 @@
+<!--pages/advisoryContent/advisoryContent.wxml-->
+<view class='width100 height320'>
+  <image src='/img/image22.png'></image>
+</view>
+<view class='padding2020 font-size14'>
+2019年是房地产行业最为关键的一年，黄博文老师从行业、战略、变革三个....内容省略
+</view>
+<view class='flex-start font-size14 height120 border-top position-bottom width100'>
+  <view class='width50 flex1 height-100' bindtap='clickAdvisoryServe'>
+    <view class='flex-start'>
+      <view class='width-50 height50'>
+        <image src='/img/image21.png'></image>
+      </view>
+      <text>客服咨询</text> 
+    </view>
+  </view>
+  <view class='width50 backC colorF height-100 flex1' bindtap='clickAdvisoryApply'>我要报名</view>
+</view>

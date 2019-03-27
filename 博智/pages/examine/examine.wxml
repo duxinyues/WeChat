@@ -1,0 +1,113 @@
+<!--pages/examine/examine.wxml-->
+<view class='topTabSwiper back height90 box-shadowB font-size16'>
+    <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}'  data-current = "0" bindtap='checkCurrent'>待审批</view>
+    <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}'  data-current = "1" bindtap='checkCurrent'>已通过</view>
+    <view class='tab  {{currentData == 2 ? "tabBorer" : ""}}'  data-current = "2" bindtap='checkCurrent'>未通过</view>
+</view>
+<swiper current="{{currentData}}" class='swiper' style="height:600px;" duration="300" bindchange="bindchange">
+  <swiper-item>
+    <view class='swiper_con padding020'>
+      <view class='back border-solid-radius padding2020'>
+        <view class='flex-between padding020 height90 border-bottom'>
+          <view class='colorFFF font-size14'>订单编号：3423789</view>
+          <view class='colorFFF font-size14'>2019/1/1</view>
+        </view>
+        <view class=''>
+          <view class='overflow-hidden'>
+              <view  class="user-pho-min float-left margin2020">
+                <open-data type='userAvatarUrl'></open-data>
+              </view>
+              <view class='float-left margin-top20'>
+                <view><text class='font-wei'>用户名称</text><text class='font-size12 padding-left20'>职位</text></view>
+                <view class='font-size16 text-left'>公司名称</view>
+              </view>
+          </view>
+          <view class='padding-bottom20 font-size14 text-left text-indent1 colorFFF border-bottom'>
+            <view>报名课程：某某某课程</view>
+            <view>开课时间：2019/1/20 12：30</view>
+            <view>开课地址：上海市某某路口</view>
+          </view>
+        </view>
+        <view class='flex-space-around margin20'>
+          <button class='width40 backBF colorF font-size14 padding20' bindtap='showMasking'>不同意</button>
+          <button class='width40 backC colorF font-size14 padding20' bindtap='goodExamine'>同意</button>
+        </view>
+      </view>
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view class='swiper_con padding020'>
+      <view class='back border-solid-radius  padding2020'>
+        <view class='flex-between padding020 height90 border-bottom'>
+          <view class='colorFFF font-size14'>订单编号：3423789</view>
+          <view class='colorFFF font-size14'>2019/1/1</view>
+        </view>
+        <view class=''>
+          <view class='overflow-hidden'>
+              <view  class="user-pho-min float-left margin2020">
+                <open-data type='userAvatarUrl'></open-data>
+              </view>
+              <view class='float-left margin-top20'>
+                <view><text class='font-wei'>用户名称</text><text class='font-size12 padding-left20'>职位</text></view>
+                <view class='font-size16 text-left'>公司名称</view>
+              </view>
+          </view>
+          <view class='padding-bottom20 font-size16 text-left text-indent1 colorFFF border-bottom'>
+            <view>报名课程：某某某课程</view>
+            <view>开课时间：2019/1/20 12：30</view>
+            <view>开课地址：上海市某某路口</view>
+          </view>
+        </view>
+        <view class=' margin20'>
+          <view class='font-size16 text-left text-indent1 colorFFF'>审批通过时间：2019/3/3</view>
+        </view>
+      </view>
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view class='swiper_con padding020'>
+      <view class='back border-solid-radius  padding2020'>
+        <view class='flex-between padding020 height90 border-bottom'>
+          <view class='colorFFF font-size14'>订单编号：3423789</view>
+          <view class='colorFFF font-size14'>2019/1/1</view>
+        </view>
+        <view class=''>
+          <view class='overflow-hidden'>
+              <view  class="user-pho-min float-left margin2020">
+                <open-data type='userAvatarUrl'></open-data>
+              </view>
+              <view class='float-left margin-top20'>
+                <view><text class='font-wei'>用户名称</text><text class='font-size12 padding-left20'>职位</text></view>
+                <view class='font-size16 text-left'>公司名称</view>
+              </view>
+          </view>
+          <view class='padding-bottom20 font-size16 text-left text-indent1 colorFFF border-bottom'>
+            <view>报名课程：某某某课程</view>
+            <view>开课时间：2019/1/20 12：30</view>
+            <view>开课地址：上海市某某路口</view>
+          </view>
+        </view>
+        <view class='margin20'>
+          <view class='font-size16 text-left text-indent1 colorFFF'>审批未通过时间：2019/3/3</view>
+          <view class='font-size16 text-left text-indent1 colorFFF'>拒绝理由：不是本公司职员</view>
+        </view>
+      </view>
+    </view>
+  </swiper-item> 
+</swiper>
+
+<view class='masking flex1' wx:if="{{showModal}}" catchtap='closeMask'>
+  <view class='back border-radius6 width80 flex3 padding4040 margin-top-300' catchtap="showMasking">
+    <view class='font-wei text-align width100'>请填写拒绝理由</view>
+    <form class='width100 margin-top20'>
+      <view class='font-size14 border-solid-radius  width100'>
+        <input placeholder='请填写拒绝理由' class='height220 font-center'></input>
+      </view>
+      <view class='flex-between margin-top20'>
+        <button class='width45 backBF colorF' catchtap='closeMask'>取消</button>
+        <button class='width45 backC colorF' catchtap='goodExamine'>确定</button>
+      </view>
+    </form>
+   
+  </view>
+</view>

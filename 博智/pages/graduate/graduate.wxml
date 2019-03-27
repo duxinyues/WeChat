@@ -1,0 +1,77 @@
+<!--pages/graduate/graduate.wxml-->
+<view class='height220'>
+  <image class='image' src='/img/test1.png'></image>
+</view>
+
+<view class='margin2'>
+  <view class='font-wei margin20'>最新报告</view>
+  <view class=' back border-radius6 overflow-hidden' bindtap=''>
+    <view class='height240'>
+      <image src='/img/image22.png'></image>
+    </view>
+      <view class='font-wei font-size14 text-indent1 margin-bottom20'>标题内容标题</view>
+  </view>
+</view>
+
+<view class='margin2'>
+  <view class='flex-between margin20'>
+    <text class='font-wei'>研究成果</text>
+    <navigator class='font-size12 colorFFF' url='/pages/graduateResult/graduateResult'>更多</navigator>
+  </view>
+  <view class=' back border-radius6 overflow-hidden' bindtap=''>
+    <swiper indicator-dots="true" indicator-color="white" autoplay="true" class='swiperStyle'>
+      <swiper-item>
+        <view class='height240'>
+          <image src='/img/image22.png'></image>
+        </view>
+          <view class='font-wei font-size14 text-indent1 margin-bottom20'>标题内容标题</view>
+      </swiper-item>
+      <swiper-item>
+        <view class='height240'>
+          <image src='/img/image22.png'></image>
+        </view>
+          <view class='font-wei font-size14 text-indent1 margin-bottom20'>标题内容标题</view>
+      </swiper-item>
+      <swiper-item>
+        <view class='height240'>
+          <image src='/img/image22.png'></image>
+        </view>
+          <view class='font-wei font-size14 text-indent1 margin-bottom20'>标题内容标题</view>
+      </swiper-item>
+    </swiper>
+  </view>
+</view>
+
+<view class='margin2'>
+  <view class='flex-between margin20'>
+    <text class='font-wei'>往期呈现</text>
+    <navigator class='font-size12 colorFFF' url='/pages/graduatePast/graduatePast'>更多</navigator>
+  </view>
+
+  <view class='margin-bottom20'>
+
+    <view class='graduata-item back border-radius6 overflow-hidden margin-bottom20' bindtap=''>
+      <view class='width333 height220 float-left'>
+        <image src='/img/image22.png'></image>
+      </view>
+      <view class='float-left padding2020 width666'>
+        <view class='font-wei'>活动标题</view>
+        <view class='font-size14'>11月16日，由博志略略略略略略略略</view>
+        <view class='font-size12 colorFFF'>2019/1/12</view>
+      </view>
+    </view>
+
+      <view class='graduata-item back border-radius6 overflow-hidden margin-bottom20' bindtap=''>
+      <view class='width333 height220 float-left'>
+        <image src='/img/image22.png'></image>
+      </view>
+      <view class='float-left padding2020 width666'>
+        <view class='font-wei'>活动标题</view>
+        <view class='font-size14'>11月16日，由博志略略略略略略略略</view>
+        <view class='font-size12 colorFFF'>2019/1/12</view>
+      </view>
+    </view>
+
+  </view>
+
+</view>

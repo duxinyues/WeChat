@@ -1,0 +1,30 @@
+<!--pages/manpowerContent/manpowerContent.wxml-->
+<view class='margin2'>
+  <view class='margin20 font-wei'>
+    助推企业转型与升级
+  </view>
+  <view class='font-size12'>
+    <view>开课时间：2019/1/12 13:00-15:00</view>
+    <view>开课地址：北京市朝阳区123号</view>
+    <view>课程费用：<text class="colorReb">课程费用：￥120.0</text></view>
+  </view>
+  <view class='height320'>
+    <image class='image' src='/img/image22.png'></image>
+  </view>
+  <view class='font-size14 text-indent1'>这里是文章内容内容省略。省略省略省略省略省略省略省略省略省略省略省略省略省略省略省略省略省略</view>
+  <view class='height320'>
+    <image class='image' src='/img/image22.png'></image>
+  </view>
+   <view class='font-size14 text-indent1'>这里是文章内容内容省略。省略省略省略省略省略省略省略省略省略省略省略省略省略省略省略省略省略</view>
+</view>
+<view class='applyCourse border-top'>
+  <view class='width50 float-left'>
+    <button open-type="contact" class='boder-none'>客服咨询</button>
+  </view>
+  <view class='width50 float-left'>
+    <button class='backC colorF boder-none'catchtap='clcikManpowerApply'>我要报名</button>
+  </view>
+</view>
+
+
+

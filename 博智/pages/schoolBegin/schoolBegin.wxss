@@ -1,0 +1,21 @@
+/* pages/schoolBegin/schoolBegin.wxss */
+@import '../communal/communal.wxss';
+page{
+  background-color: #F3F3F3
+}
+.school-head{
+  padding-top: 20rpx;
+}
+.school-image{
+  height: 320rpx;
+}
+.but-radius1{
+  position: fixed;
+  right: 20rpx;
+  bottom: 150rpx;
+  width: 150rpx;
+  height: 150rpx;
+}
+button::after {
+  border: none
+}

@@ -1,0 +1,30 @@
+<!--pages/advisoryServe/advisoryServe.wxml-->
+<view class='padding2020'>
+  <view class='padding2020 font-center font-size18 fontwei500'>战略研讨会</view>
+  <view class='font-size14 font-wei400'>内容省略</view>
+  <view class='height300 margin20'>
+    <image src='/img/image22.png'></image>
+  </view>
+</view>
+<view class='backC colorF flex1 height110 position-bottom width100' bindtap='submitServe'>
+  <view class='flex-start'>
+    <view class='width-50 height50 margin-right20'>
+      <image src='/img/image23.png'></image>
+    </view>
+    <view>立即咨询</view>
+  </view>
+</view>
+
+<view class='masking' wx:if="{{showMasking}}" catchtap='close_mask'>
+  <view class='masking-son'>
+    <view class='flex-center'>
+      <image src='/img/serverPhone2.png' class='maskingImage'></image>
+    </view>
+    <view class='font-size18 font-wei500 flex-center margin20'>提示</view>
+    <view class='font-size15 font-wei400 flex-center'>是否要立即拨打客服电话11111111电话进行咨询</view>
+    <view class='flex-space-around margin-top50'>
+      <button catchtap='close_mask' class='masking-but back191'> 取消</button>
+      <button class='masking-but backC'>确认</button>
+    </view>
+  </view>
+</view>

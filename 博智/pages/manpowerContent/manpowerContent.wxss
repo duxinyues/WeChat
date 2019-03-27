@@ -1,0 +1,10 @@
+/* pages/manpowerContent/manpowerContent.wxss */
+@import '../communal/communal.wxss';
+.applyCourse{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.applyCourse button{
+  border-radius: 0;
+}

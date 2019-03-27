@@ -1,0 +1,43 @@
+<!--pages/orderCentent/orderCentent.wxml-->
+      <view class='back margin-top20 overflow-hidden borderLR'>
+        <view class='flex-between height90 padding020'>
+          <view class='font-size12 colorFFF'>订单编号：2020020</view>
+          <view class='font-size12 colorBlue'>待付款</view>
+        </view>
+
+        <view class='backF5 padding2020 flex-start' bindtap='clickOrderContent'>
+          <view class='width333 height120'>
+            <image src='/img/image22.png'></image>
+          </view>
+          <view class='padding2020 width666 text-left'>
+            <view class='font-size14 font-wei'>课程标题内容</view>
+            <view class='font-size14'>上海某某路口</view>
+            <view class='font-size14 colorFFF'>发布时间：2019/1/12</view>
+          </view>
+        </view>
+
+        <view class='back padding020'>
+          <view class='font-size12 colorFFF margin20 text-left'>下单时间：2018/12/12 12:23</view>
+        </view>
+      </view>
+
+<view class='flex-center back margin-top20'>
+  <navigator url=""class="width90 flex-between border-bottom">
+    <text class='font-size14 font-wei margin20'>听课人数</text>
+    <view class='flex-between'>
+      <text class='font-size16 colorFFF'>1人</text>
+      <image src="/img/fangxiang.png" class='width-30 height40'></image>
+    </view>
+  </navigator>
+</view>
+
+<view class='flex-center back margin-top20'>
+  <navigator url=""class="width90 flex-between border-bottom">
+    <text class='font-size14 font-wei margin20'>听课人数</text>
+    <view class='flex-between'>
+      <text class='font-size16 colorReb'>￥123.0</text>
+    </view>
+  </navigator>
+</view>
+
+<button class='backC colorF position' bindtap='clcikPyamentEnd'>立即付款</button>

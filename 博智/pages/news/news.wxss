@@ -1,0 +1,3 @@
+/* pages/news/news.wxss */
+@import '../communal/communal.wxss';
+@import '../templates/courses.wxss';

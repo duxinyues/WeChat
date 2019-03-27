@@ -1,0 +1,6 @@
+/* pages/payment/payment.wxss */
+@import '../communal/communal.wxss';
+@import '../templates/courses.wxss';
+page{
+  background-color: #F3F3F3;
+}

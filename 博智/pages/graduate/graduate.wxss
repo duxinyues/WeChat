@@ -1,0 +1,5 @@
+/* pages/graduate/graduate.wxss */
+page{
+  background-color: #F3F3F3
+}
+@import '../communal/communal.wxss';

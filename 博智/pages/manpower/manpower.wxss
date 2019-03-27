@@ -1,0 +1,69 @@
+/* pages/manpower/manpower.wxss */
+@import '../communal/communal.wxss';
+@import '../templates/courses.wxss';
+page{
+  background-color: #F3F3F3;
+}
+
+.tab {
+  float: left;
+  width: 50%;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-weight: 500;
+  font-family:PingFangSC-Medium;
+}
+ 
+.topTabSwiper {
+  position: relative;
+  color: #979797;
+  border-top: 1px solid #ccc;
+  zoom: 1;
+}
+ 
+.topTabSwiper:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.topTabSwiper::before{
+  position: absolute;
+  content: "";
+  height: 45rpx;
+  left: 50%;
+  top: 25%;
+  border-left: 1px solid #466AF8;
+}
+ 
+.tabBorer {
+  position: relative;
+  color: #466AF8;
+}
+.tabBorer::after{
+  content: "";
+  width: 88rpx;
+  border-bottom:6rpx solid #466AF8;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -44rpx;
+  border-radius: 10px;
+}
+ 
+.swiper {
+  width: 100%;
+}
+ 
+.swiper_con {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.buttonPR{
+  position: absolute;
+  right: 20rpx;
+  bottom: 30rpx;
+  font-size: 16px;
+}

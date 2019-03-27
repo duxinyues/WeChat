@@ -1,0 +1,26 @@
+<!--pages/case/case.wxml-->
+<view class='margin2020 border-solid-radius back' bindtap='clickCaseContent'>
+  <view class='height240'>
+    <image src='/img/image22.png' class='image border-top-radius6'></image>
+  </view>
+  <view class='font-wei500  text-indent1 font-size14 caseTitl'>标题内容标题</view>
+</view>
+
+<view class='margin2020 border-solid-radius back' bindtap='clickCaseContent'>
+  <view class='height240'>
+    <image src='/img/image22.png' class='image border-top-radius6'></image>
+  </view>
+  <view class='font-wei500  text-indent1 font-size14 caseTitl'>标题内容标题</view>
+</view>
+
+<view class='margin2020'>
+  <view class='flex-between width100'>
+    <view class='font-wei500 font-size20'>合作客户</view>
+    <navigator class='font-size12 colorFFF' url='/pages/caseClient/caseClient'>更多</navigator>
+  </view>
+  <view class='width100 flex-between margin20' bindtap='openCoursesD'>
+    <view class='width100 height240'>
+      <image src='/img/image22.png' class='image border-radius6'></image>
+    </view>
+  </view>
+</view>

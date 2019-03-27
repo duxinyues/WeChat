@@ -1,0 +1,89 @@
+<!--pages/MyMine/MyMine.wxml-->
+<view class='head-info flex-center'>
+  <view class='user-info box-shadowB' bindtap='ClickPersonality'>
+    <view class='user-info-left flex-center'>
+        <view  class="user-pho">
+          <open-data type='userAvatarUrl'></open-data>
+        </view>
+    </view>
+    <view class='user-name flex-vertical font-size14'>
+      <view class='userName autonym'>{{user_name}}</view>
+      <view class='userPost'>{{user_post}}</view>
+    </view>
+    <view class='more flex-center'>
+      <image src="/img/fangxiang.png" class='skip-bag'></image>
+    </view>
+  </view>
+  <image src='/img/back-my.png' class=''></image>
+</view>
+
+<view class='MyApp flex-center box-shadow4'>
+  <view class='MyApp-Content flex1' bindtap='clickIndent'>
+    <image src='/img/MyMine1.png'></image>
+    <view>我的订单</view>
+  </view>
+  <view class='MyApp-Content flex1' bindtap='clickEvaluate'>
+    <image src='/img/MyMine2.png'></image>
+    <view>资料下载</view>
+  </view>
+  <view class='MyApp-Content flex1' bindtap='clickFootprint'>
+    <image src='/img/MyMine3.png'></image>
+    <view>我的足迹</view>
+  </view>
+  <view class='MyApp-Content flex1' bindtap='clickWaiter'>
+    <image src='/img/MyMine4.png'></image>
+    <view>我的客服</view>
+  </view>
+</view>
+
+<view class='margin2 flex-center back myFont'>
+  <view class='width10 flex-center'><image src='/img/MyMine5.png' class='MyMine2'></image></view>
+  <navigator url="/pages/afterClass/afterClass"class="width90 flex-between border-bottom">
+    <text class='margin20'>课后评价</text>
+    <image src="/img/fangxiang.png" class='skip-small'></image>
+  </navigator>
+</view>
+<view class='margin2 flex-center myFont'>
+  <view class='width10 flex-center'><image src='/img/MyMine6.png' class='MyMine2'></image></view>
+  <navigator url="/pages/member/member"class="width90 flex-between border-bottom">
+    <text class=' margin20'>企业会员卡</text>
+    <image src="/img/fangxiang.png" class='skip-small'></image>
+  </navigator>
+</view>
+<view class='margin2 flex-center myFont'>
+  <view class='width10 flex-center'><image src='/img/MyMine7.png' class='MyMine2'></image></view>
+  <navigator url="/pages/units/units"class="width90 flex-between border-bottom">
+    <text class='margin20'>单位管理</text>
+    <image src="/img/fangxiang.png" class='skip-small'></image>
+  </navigator>
+</view>
+<view class='margin2 flex-center myFont'>
+  <view class='width10 flex-center'><image src='/img/MyMine8.png' class='MyMine2'></image></view>
+  <navigator url="/pages/invoice/invoice"class="width90 flex-between border-bottom">
+    <text class='margin20'>发票管理</text>
+    <image src="/img/fangxiang.png" class='skip-small'></image>
+  </navigator>
+</view>
+<view class='margin2 flex-center myFont'>
+  <view class='width10 flex-center'><image src='/img/MyMine9.png' class='MyMine2'></image></view>
+  <navigator url="/pages/share/share"class="width90 flex-between border-bottom">
+    <text class='margin20'>我的分享</text>
+    <image src="/img/fangxiang.png" class='skip-small'></image>
+  </navigator>
+</view>
+<view class='margin2 flex-center myFont'>
+  <view class='width10 flex-center'><image src='/img/MyMine10.png' class='MyMine2'></image></view>
+  <navigator url="/pages/examine/examine"class="width90 flex-between border-bottom">
+    <text class='margin20'>订单审批</text>
+    <image src="/img/fangxiang.png" class='skip-small'></image>
+  </navigator>
+</view>
+<view class='margin2 flex-center myFont'>
+  <view class='width10 flex-center'><image src='/img/MyMine11.png' class='MyMine2'></image></view>
+  <navigator url="/pages/opinion/opinion"class="width90 flex-between border-bottom">
+    <text class='margin20'>意见反馈</text>
+    <image src="/img/fangxiang.png" class='skip-small'></image>
+  </navigator>
+</view>
+
+<include src="/pages/CustomerMessage/CustomerMessage" />

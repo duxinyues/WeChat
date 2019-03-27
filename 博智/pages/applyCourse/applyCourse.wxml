@@ -1,0 +1,48 @@
+<!--pages/applyCourse/applyCourse.wxml-->
+<view class='applyBody'>
+  <form>
+    <view class='border-solid-radius overflow-hidden height90 flex-start margin-bottom20'>
+      <view class='padding020'>姓名</view>
+      <input class='' placeholder="请输入你的姓名"/>
+    </view>
+
+    <view class='border-solid-radius overflow-hidden height90 flex-start margin-bottom20'>
+      <view class='padding020'>电话</view>
+      <input class='' placeholder="请输入你的电话"/>
+    </view>
+
+    <view class='border-solid-radius overflow-hidden height90 flex-start margin-bottom20'>
+      <view class='padding020'>公司</view>
+      <input class='' placeholder="请输入你的公司名称"/>
+    </view>
+
+    <view class='border-solid-radius overflow-hidden height90 flex-start margin-bottom20'>
+      <view class='padding020'>职位</view>
+      <input class='' placeholder="请输入你的职位"/>
+    </view>
+
+    <view class='border-solid-radius overflow-hidden height90 flex-start margin-bottom20'>
+      <view class='padding020'>公司职位</view>
+      <input class='' placeholder="请输入你的职位"/>
+    </view>
+
+    <view class='border-solid-radius overflow-hidden height90 flex-start margin-bottom20'>
+      <view class='padding020'>职位</view>
+      <input class='' placeholder="请输入你的职位"/>
+    </view>
+
+    <view class='flex-between'>
+      <view class='font-wei'>费用金额</view>
+      <view class='colorReb font-wei'>￥120.0</view>
+    </view>
+    <view class='margin-top80'>
+      <radio-group name="member" class="flex-between">
+        <label>
+          <radio value="个人用户" checked/>个人用户</label>
+        <label>
+          <radio value="企业用户" />企业用户</label>
+      </radio-group>
+    </view>
+    <button class='backC colorF margin-top20' bindtap='clickPaymenEnd'>立即报名</button>
+  </form>
+</view>

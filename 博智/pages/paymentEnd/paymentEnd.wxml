@@ -1,0 +1,13 @@
+<!--pages/paymentEnd/paymentEnd.wxml-->
+<view class='padding30 flex1 height300'>
+  <view>
+    <view class='width-200 height200'>
+      <image src='/img/good.png'></image>
+    </view>
+    <view class='font-size15 font-center margin-top20 font-wei500'>支付成功</view>
+  </view>
+</view>
+<view class='margin030 flex-between'>
+  <button class='butPE' bindtap='clickHome'>回到首页</button>
+  <button class='butPE' bindtap='clickTrip'>行程安排</button>
+</view>

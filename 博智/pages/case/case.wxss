@@ -1,0 +1,9 @@
+/* pages/case/case.wxss */
+page{
+  background-color: #F3F3F3
+}
+@import '../communal/communal.wxss';
+.caseTitl{
+  height: 82rpx;
+  line-height: 82rpx;
+}

@@ -1,0 +1,54 @@
+<!--pages/invoiceAddAddr/invoiceAddAddr.wxml-->
+<form>
+  <view class='flex-between padding4040 back margin-top20 font-size14'>
+    <view class='font-wei'>姓名</view>
+    <view class='flex-between'>
+      <input placeholder='请输入您的姓名' class='text-right'></input>
+      <view class='width-30 height40'>
+        <image src="/img/fangxiang.png"></image>
+      </view>
+    </view>
+  </view>
+
+
+
+  <view class='flex-between padding4040 back margin-top20 font-size14'>
+    <view class='font-wei'>电话</view>
+    <view class='flex-between'>
+      <input placeholder='请输入您的电话' class='text-right'></input>
+      <view class='width-30 height40'>
+        <image src="/img/fangxiang.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class='flex-between padding4040 back margin-top20 font-size14'>
+    <view class='font-wei'>地址</view>
+    <view class='flex-between'>
+      <input placeholder='请选择您所在的地址' class='text-right'></input>
+      <view class='width-30 height40'>
+        <image src="/img/fangxiang.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class='padding4040 back margin-top20 font-size14'>
+    <view class='flex-between'>
+      <input placeholder='请输入详细地址'></input>
+    </view>
+  </view>
+
+  <view class='flex-between padding4040 back margin-top20 font-size14 margin-top40'>
+    <view class='colorFFF'>设置为默认地址</view>
+    <view class='flex-between'>
+      <radio-group class="radio-group" >
+        <label class="radio" >
+            <radio value="" checked=""/>
+        </label>
+      </radio-group>
+    </view>
+  </view>
+</form>
+
+<button class='but-bottom' bindtap='clickAddrAdd'>保存</button>
+

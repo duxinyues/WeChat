@@ -1,0 +1,103 @@
+<!--index.wxml-->
+<view class='indexSwiper'>
+<swiper indicator-dots="true" indicator-color="white" autoplay="true" class='swiperStyle'>
+  <swiper-item>
+      <image src="/img/test1.png" class=""/>
+  </swiper-item>
+  <swiper-item>
+      <image src="/img/test1.png" class=""/>
+  </swiper-item>
+  <swiper-item>
+      <image src="/img/test1.png" class=""/>
+  </swiper-item>
+</swiper>
+</view>
+
+<view class='tab-nav'>
+  <view class='tab-nav-item' bindtap="clickSchooLBegin">
+    <image src='../../img/image1.png'></image>
+    <view>培训</view>
+  </view>
+    <view class='tab-nav-item' bindtap="clickAdvisory">
+      <image src='../../img/image2.png'></image>
+    <view>咨询</view>
+  </view>
+    <view class='tab-nav-item' bindtap="clickCase">
+    <image src='../../img/image3.png'></image>
+    <view>案例</view>
+  </view>
+    <view class='tab-nav-item' bindtap="clickGraduate">
+      <image src='../../img/image4.png'></image>
+    <view>研究院</view>
+  </view>
+    <view class='tab-nav-item' bindtap="clickNews">
+    <image src='../../img/image5.png'></image>
+    <view>新闻</view>
+  </view>
+    <view class='tab-nav-item' bindtap="clickSmallClass">
+      <image src='../../img/image6.png'></image>
+    <view>微课</view>
+  </view>
+    <view class='tab-nav-item' bindtap="clickServe">
+    <image src='../../img/image7.png'></image>
+    <view>服务</view>
+  </view>
+    <view class='tab-nav-item' bindtap="clickActivity">
+      <image src='../../img/image8.png'></image>
+    <view>活动</view>
+  </view>
+</view>
+
+<view class='new-wraper'>
+  <image src='/img/new-wraper.png'></image>
+  <view class='new-content'>{{newContent}}</view>
+</view>
+
+<import src="../templates/courses" />
+<template is="courses1" data="{{coursesData}}"/>
+<template is="courses2" data="{{coursesData2}}"/>
+<template is="courses3" data="{{coursesData3}}"/>
+
+<view class='masking' wx:if="{{showMasking}}" catchtap='close_mask'>
+  <view class='masking-son nowSignBody padding4040' catchtap='submit'>
+    <view class='nowSign margin-auto'>
+      <image src='/img/home1.png'></image>
+    </view>
+    <form>
+      <view class='border-solid-radius2 padding1510 flex-start margin-top50 font-size14'>
+        <view class=' border-right2 padding-right10 margin-right20 flex1'>
+          <image src='/img/home2.png' class='width-40 height40'></image>
+        </view>
+        <view>
+          <input placeholder='请输入您的姓名'></input>
+        </view>
+      </view>
+
+      <view class='border-solid-radius2 padding1510 flex-start margin-top20 font-size14'>
+        <view class=' border-right2 padding-right10 margin-right20 flex1'>
+          <image src='/img/home3.png' class='width-40 height40'></image>
+        </view>
+        <view>
+          <input placeholder='请输入您的电话'></input>
+        </view>
+      </view>
+
+      <button class='colorF backC margin-top74 nowSignBut' catchtap='clickSign'>立即签到</button>
+    </form>
+    <image src='/img/close.png' class='marking-close'></image>
+  </view>
+</view>
+
+<view class='masking' wx:if="{{showMasking2}}" catchtap='close_mask'>
+  <view class='masking-son signSuccessBody back padding4040 flex1'>
+    <view class='flex1 height320'>
+      <view class='signSuccess margin-bottom20'>
+        <image src='/img/home4.png'></image>
+      </view>
+      <view class='singText'>恭喜你，签到成功</view>
+    </view>
+    <image src='/img/close.png' class='marking-close'></image>
+  </view>
+</view>
+
+<include src="/pages/CustomerMessage/CustomerMessage" />

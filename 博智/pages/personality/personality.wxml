@@ -1,0 +1,36 @@
+<!--pages/personality/personality.wxml-->
+<view class='height120 back flex-between padding020 font-size16 margin-top20'>
+  <view>用户头像</view>
+  <view>      
+    <view  class="user-pho-min float-left">
+      <open-data type='userAvatarUrl'></open-data>
+    </view>
+      <text class='float-left' style='line-height:50px'>></text>
+    </view>
+</view>
+
+<view class='height120 back flex-between padding020 font-size16 margin-top20'>
+  <view>用户昵称</view>
+  <view>小甜甜<text>></text></view>
+</view>
+
+<view class='height120 back flex-between padding020 font-size16 margin-top20' bindtap='clickRealName'>
+  <view>实名认证</view>
+  <view>已实名<text>></text></view>
+</view>
+<view class='height120 back flex-between padding020 font-size16 margin-top20'>
+  <view>公司名称</view>
+  <view>博志成集团<text>></text></view>
+</view>
+
+<view class='height120 back flex-between padding020 font-size16 margin-top20'>
+  <view>职位</view>
+  <view>首席培训官<text>></text></view>
+</view>
+
+<view class='height120 back flex-between padding020 font-size16 margin-top20'>
+  <view>公司地址</view>
+  <view>上海市某区<text>></text></view>
+</view>
+
+<button class='backC margin-top180 width80 colorF'>保存</button>
