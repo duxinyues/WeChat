@@ -1,0 +1,75 @@
+<!--pages/news/news.wxml-->
+<view class='height220'>
+  <image class='image' src='/img/test1.png'></image>
+</view>
+
+<view class='margin2'>
+  <view class='flex-between margin20'>
+    <text class='font-wei'>课程新闻</text>
+    <navigator class='font-size12 colorFFF' url=''>更多...</navigator>
+  </view>
+
+  <view class='margin-bottom20' bindtap=''>
+
+    <view class='graduata-item back border-solid-radius overflow-hidden margin-bottom20 padding2020'>
+      <view class='width333 height220 float-left'>
+        <image src='/img/image22.png'></image>
+      </view>
+      <view class='float-left padding2020 width666'>
+        <view class='font-size14'>11月16日，由博志略略略略略略略略</view>
+        <view class='font-size14 colorFFF'>发布时间：2019/1/12</view>
+      </view>
+    </view>
+
+
+  </view>
+
+</view>
+
+<view class='margin2'>
+  <view class='flex-between margin20'>
+    <text class='font-wei'>公司动态</text>
+    <navigator class='font-size12 colorFFF' url=''>更多...</navigator>
+  </view>
+  <view class=' back border-solid-radius overflow-hidden' bindtap=''>
+    <view class='height240'>
+      <image src='/img/image22.png'></image>
+    </view>
+      <view class='font-wei font-size14 text-indent1'>标题内容标题</view>
+      <view class='font-size12 text-indent1 margin-bottom20 colorFFF'>发布时间：2019/1/23</view>
+  </view>
+</view>
+
+<view class='margin2'>
+  <view class='flex-between margin20'>
+    <text class='font-wei'>行业资讯</text>
+    <navigator class='font-size12 colorFFF' url=''>更多...</navigator>
+  </view>
+
+  <view class='margin-bottom20'>
+
+    <view class='graduata-item back border-solid-radius overflow-hidden margin-bottom20' bindtap=''>
+      <view class='width333 height220 float-left'>
+        <image src='/img/image22.png'></image>
+      </view>
+      <view class='float-left padding2020 width666'>
+        <view class='font-wei'>活动标题</view>
+        <view class='font-size14'>11月16日，由博志略略略略略略略略</view>
+        <view class='font-size12 colorFFF'>2019/1/12</view>
+      </view>
+    </view>
+
+      <view class='graduata-item back border-solid-radius overflow-hidden margin-bottom20' bindtap=''>
+      <view class='width333 height220 float-left'>
+        <image src='/img/image22.png'></image>
+      </view>
+      <view class='float-left padding2020 width666'>
+        <view class='font-wei'>活动标题</view>
+        <view class='font-size14'>11月16日，由博志略略略略略略略略</view>
+        <view class='font-size12 colorFFF'>2019/1/12</view>
+      </view>
+    </view>
+
+  </view>
+
+</view>

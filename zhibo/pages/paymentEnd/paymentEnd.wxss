@@ -1,0 +1,9 @@
+/* pages/paymentEnd/paymentEnd.wxss */
+@import '../communal/communal.wxss';
+@import '../templates/courses.wxss';
+.butPE{
+  background-color: #466AF8;
+  color: white;
+  font-size: 16px;
+  width: 48%;
+}

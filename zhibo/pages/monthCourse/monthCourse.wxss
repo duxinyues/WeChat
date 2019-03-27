@@ -1,0 +1,25 @@
+/* pages/monthCourse/monthCourse.wxss */
+@import '../communal/communal.wxss';
+page{
+  background-color: #F3F3F3;
+}
+.buttonPR{
+  position: relative;
+  top: 75rpx;
+  right: 20rpx;
+  font-size:14px;
+  font-family:PingFangSC-Medium;
+  font-weight:bold;
+  color:rgba(243,243,243,1);
+  line-height:35px;
+  width: 80px;
+  height: 35px;
+  padding: 0;
+}
+.title{
+  font-weight: bold
+}
+.margin20{
+  padding-left: 18rpx;
+  font-weight: bold;
+}

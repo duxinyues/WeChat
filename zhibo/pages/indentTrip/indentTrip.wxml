@@ -1,0 +1,38 @@
+<!--pages/indentTrip/indentTrip.wxml-->
+<view class='padding5050'>
+  <view class='height180'>
+    <image src='/img/trip.png'></image>
+  </view>
+  <form class='font-size16'>
+    <view class='border-solid-radius overflow-hidden height90 flex-start margin-top20'>
+      <view class='padding020'>姓名</view>
+      <input class='' placeholder="王美丽"/>
+    </view>
+        <view class='border-solid-radius overflow-hidden height90 flex-start margin-top20'>
+      <view class='padding020'>电话</view>
+      <input class='' placeholder="12342524352"/>
+    </view>
+        <view class='border-solid-radius overflow-hidden height90 flex-start margin-top20'>
+      <view class='padding020'>飞机</view>
+      <input class='' placeholder="选择到达方式"/>
+    </view>
+        <view class='border-solid-radius overflow-hidden height90 flex-start margin-top20'>
+      <view class='padding020'>2019/1/1</view>
+      <input class='' placeholder="请选择到达时间"/>
+    </view>
+        <view class='border-solid-radius overflow-hidden height90 flex-start margin-top20'>
+      <view class='padding020'>是否预订酒店</view>
+      <input class='' placeholder="标准时间"/>
+    </view>
+        <view class='border-solid-radius overflow-hidden height90 flex-start margin-top20'>
+      <view class='padding020'>离开时间</view>
+      <input class='' placeholder="2019/1/12"/>
+    </view>
+    
+    <view class='margin-top20 padding5050 flex-between'>
+      <button class='backC colorF width45' bindtap='clickPayment'>联系客服</button>
+      <button class='backC colorF width45' bindtap='clickPayment'>提交修改</button>
+    </view>
+  </form>
+</view>
+

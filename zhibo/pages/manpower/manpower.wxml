@@ -1,0 +1,88 @@
+<!--pages/manpower/manpower.wxml-->
+<view class='topTabSwiper back font-size15 font-wei15 box-shadow'>
+    <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}'  data-current = "0" bindtap='checkCurrent'>正在报名</view>
+    <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}'  data-current = "1" bindtap='checkCurrent'>往期课程</view>
+</view>
+<swiper current="{{currentData}}" class='swiper' style="height:1000px;" duration="300" bindchange="bindchange">
+  <swiper-item>
+    <view class='swiper_con padding2020'>
+      <view class=' back border-solid-radius overflow-hidden'>
+        <view class='height280'  bindtap='clickManpowerContent'>
+          <image src='/img/image22.png'></image>
+        </view>
+        <view class='overflow-hidden padding3030 positionR'>
+          <view class='float-left text-left'>
+            <view class='font-wei500 font-size14'>标题内容标题</view>
+            <view class='font-size12 colorFFF'>开课时间：2019/1/12 13:00-16:00</view>
+            <view class='font-size12 colorFFF'>北京市某某街道</view>
+            <view class='font-size12  font-wei500 margin-top10'>
+              活动费用：
+              <text class='font-size15 font-wei500 colorReb'>￥120.0</text>
+            </view>
+          </view>
+            <button class=' float-right buttonPR backC colorF' catchtap='clcikManpowerApply'>立即报名</button>
+        </view>
+      </view>
+
+      <view class=' back border-solid-radius overflow-hidden margin-top20'>
+        <view class='height280'  bindtap='clickManpowerContent'>
+          <image src='/img/image22.png'></image>
+        </view>
+        <view class='overflow-hidden padding3030 positionR'>
+          <view class='float-left text-left'>
+            <view class='font-wei500 font-size14'>标题内容标题</view>
+            <view class='font-size12 colorFFF'>开课时间：2019/1/12 13:00-16:00</view>
+            <view class='font-size12 colorFFF'>北京市某某街道</view>
+            <view class='font-size12  font-wei500 margin-top10'>
+              活动费用：
+              <text class='font-size15 font-wei500 colorReb'>￥120.0</text>
+            </view>
+          </view>
+            <button class=' float-right buttonPR back191 colorF' >人数已满</button>
+        </view>
+      </view>
+
+      <view class=' back border-solid-radius overflow-hidden margin-top20'>
+        <view class='height280'  bindtap='clickManpowerContent'>
+          <image src='/img/image22.png'></image>
+        </view>
+        <view class='overflow-hidden padding3030 positionR'>
+          <view class='float-left text-left'>
+            <view class='font-wei500 font-size14'>标题内容标题</view>
+            <view class='font-size12 colorFFF'>开课时间：2019/1/12 13:00-16:00</view>
+            <view class='font-size12 colorFFF'>北京市某某街道</view>
+            <view class='font-size12  font-wei500 margin-top10'>
+              活动费用：
+              <text class='font-size15 font-wei500 colorReb'>￥120.0</text>
+            </view>
+          </view>
+            <button class=' float-right buttonPR back191 colorF' >报名截止</button>
+        </view>
+      </view>
+
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view class='swiper_con padding2020'>
+            <view class=' back border-solid-radius overflow-hidden margin-top20'>
+        <view class='height280'  bindtap='clickManpowerContent'>
+          <image src='/img/image22.png'></image>
+        </view>
+        <view class='overflow-hidden padding3030 positionR'>
+          <view class='float-left text-left'>
+            <view class='font-wei500 font-size14'>标题内容标题</view>
+            <view class='font-size12 colorFFF'>开课时间：2019/1/12 13:00-16:00</view>
+            <view class='font-size12 colorFFF'>北京市某某街道</view>
+            <view class='font-size12  font-wei500 margin-top10'>
+              活动费用：
+              <text class='font-size15 font-wei500 colorReb'>￥120.0</text>
+            </view>
+          </view>
+
+        </view>
+      </view>
+    </view>
+  </swiper-item>
+</swiper>
+
+

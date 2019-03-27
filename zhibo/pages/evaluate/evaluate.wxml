@@ -1,0 +1,47 @@
+<!--pages/evaluate/evaluate.wxml-->
+<view class="swiper-tab box-shadowB">
+    <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">资料下载</view>
+    <view class="swiper-tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab">我的资料</view>
+</view>
+
+<swiper current="{{currentTab}}" duration="300"  bindchange="swiperTab" class='padding-bottom20'>
+    <swiper-item >
+      <view class='margin2'>
+        <view class='border-solid-radius padding2020 margin-top20 back flex-start'>
+          <view class='evaluate-swiper' bindtap='clickEvaluateContent'>
+            <image src='/img/image20.png' class='image'></image>
+          </view>
+          <view class='evaluate-swiper2 text-left'>
+            <view class='font-wei font-size16 font-left'>精品课程标题内容</view>
+            <view class='font-size14 font-left'>2019/1/12 13:00-16:00</view>
+            <view class='but-blue font-size14 font-center' bindtap='downloadContent'>资料下载</view>
+          </view>
+        </view>
+        <view class='border-solid-radius padding2020 margin-top20 back flex-start'>
+          <view class='evaluate-swiper' bindtap='clickEvaluateContent'>
+            <image src='/img/image20.png' class='image'></image>
+          </view>
+          <view class='evaluate-swiper2 text-left'>
+            <view class='font-wei font-size16 font-left'>精品课程标题内容</view>
+            <view class='font-size14 font-left'>2019/1/12 13:00-16:00</view>
+            <view class='but-blue font-size14 font-center' bindtap='downloadContent'>资料下载</view>
+          </view>
+        </view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class='margin2'>
+       <view class='border-solid-radius padding2020 margin-top20 back flex-start'>
+          <view class='evaluate-swiper' bindtap='clickEvaluateContent'>
+            <image src='/img/image20.png' class='image'></image>
+          </view>
+          <view class='evaluate-swiper2 text-left'>
+            <view class='font-wei font-size16 font-left'>精品课程标题内容</view>
+            <view class='colorBlue font-size14 margin-bottom20'>学习资料</view>
+            <view class='font-size14 colorFFF'>2019/1/12 13:00-16:00</view>
+          </view>
+        </view>
+      </view>  
+      </swiper-item>
+</swiper>
+

@@ -1,0 +1,82 @@
+<!--pages/advisory/advisory.wxml-->
+<view class='advisoryHead'>
+  <image class='image' src='/img/test1.png'></image>
+</view>
+
+<view class='margin2020'>
+  <view class='flex-between width100'>
+    <view class=' font-size20'>战略引领</view>
+    <navigator class='font-size14 colorFFF' url='/pages/advisoryMore/advisoryMore'>更多</navigator>
+  </view>
+  <view class='width100 flex-between margin20'>
+    <view class='width48-5 height180 positionR'  bindtap='clickAdvisoryServe'>
+      <image src='/img/image20.png' class='image border-radius6'></image>
+      <view class='positionAtitle flex-center'>- 战略研究会 -</view>
+    </view>
+     <view class='width48-5 height180 positionR' bindtap='clickAdvisoryServe'>
+      <image src='/img/image20.png' class='image border-radius6'></image>
+      <view class='positionAtitle flex-center'>- 战略规则 -</view>
+    </view>
+  </view>
+</view>
+
+<view class='margin2020'>
+  <view class='flex-between width100'>
+    <view class=' font-size20'>业务实操</view>
+    <navigator class='font-size14 colorFFF' url='/pages/advisoryMore/advisoryMore'>更多</navigator>
+  </view>
+  <view class='width100 flex-between margin20'>
+    <view class='width100 height240' bindtap='clickAdvisoryServe'>
+      <image src='/img/image22.png' class='image border-radius6'></image>
+    </view>
+  </view>
+</view>
+
+<view class='margin2020'>
+  <view class='flex-between width100'>
+    <view class=' font-size20'>产品咨询</view>
+    <navigator class='font-size14 colorFFF' url='/pages/advisoryMore/advisoryMore'>更多</navigator>
+  </view>
+  <view class='width100 flex-between margin20 flex-wrap'>
+    <view class='width48-5 height180 margin-bottom20 positionR'  bindtap='clickAdvisoryServe'>
+      <image src='/img/image20.png' class='image border-radius6'></image>
+      <view class='positionAtitle flex-center'>- 战略规则 -</view>
+    </view>
+     <view class='width48-5 height180 margin-bottom20 positionR' bindtap='clickAdvisoryServe'>
+      <image src='/img/image20.png' class='image border-radius6'></image>
+      <view class='positionAtitle flex-center'>- 战略规则 -</view>
+    </view>
+        <view class='width48-5 height180 margin-bottom20 positionR' bindtap='clickAdvisoryServe'>
+      <image src='/img/image20.png' class='image border-radius6'></image>
+      <view class='positionAtitle flex-center'>- 战略规则 -</view>
+    </view>
+     <view class='width48-5 height180 margin-bottom20 positionR' bindtap='clickAdvisoryServe'>
+      <image src='/img/image20.png' class='image border-radius6'></image>
+      <view class='positionAtitle flex-center'>- 战略规则 -</view>
+    </view>
+  </view>
+</view>
+
+<view class='margin2020'>
+  <view class='flex-between width100'>
+    <view class=' font-size20'>管理保障</view>
+    <navigator class='font-size14 colorFFF' url='/pages/advisoryMore/advisoryMore'>更多</navigator>
+  </view>
+  <view class='width100 flex-between margin20'>
+    <view class='width100 height240' bindtap='clickAdvisoryServe'>
+      <image src='/img/image22.png' class='image border-radius6'></image>
+    </view>
+  </view>
+</view>
+
+<view class='margin2020'>
+  <view class='flex-between width100'>
+    <view class=''>经典案例</view>
+    <navigator class='font-size14 colorFFF' url='/pages/advisoryMore/advisoryMore'>更多</navigator>
+  </view>
+  <view class='width100 flex-between margin20'>
+    <view class='width100 height240' bindtap='clickAdvisoryServe'>
+      <image src='/img/image22.png' class='image border-radius6'></image>
+    </view>
+  </view>
+</view>

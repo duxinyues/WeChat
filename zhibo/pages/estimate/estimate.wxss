@@ -1,0 +1,18 @@
+/* pages/estimate/estimate.wxss */
+@import '../communal/communal.wxss';
+@import '../templates/courses.wxss';
+page{
+  background-color: #F3F3F3;
+}
+radio .wx-radio-input{
+border-radius: 50%;
+height: 48rpx;
+width: 48rpx;
+margin-top: -4rpx;
+background-color: rgb(70, 106, 248)
+}
+radio .wx-radio-input.wx-radio-input-checked::before{
+background-color: rgb(70, 106, 248);
+border: 1rpx solid rgb(70, 106, 248);
+color: red;
+}

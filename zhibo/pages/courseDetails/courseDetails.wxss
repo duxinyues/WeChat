@@ -1,0 +1,20 @@
+/* pages/courseDetails/courseDetails.wxss */
+@import '../communal/communal.wxss';
+.applyCourse{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.applyCourse button{
+  border-radius: 0;
+}
+button::after {
+  border: none
+}
+.text-indent1{
+  text-align: justify;
+  padding-top: 18rpx;
+  padding-right: 8.5rpx;
+  padding-bottom: 10rpx;
+}
+.margin2{padding-left: 11.5rpx;padding-right: 12rpx;}

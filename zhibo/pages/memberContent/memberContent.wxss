@@ -1,0 +1,2 @@
+/* pages/memberContent/memberContent.wxss */
+@import '../communal/communal.wxss';

@@ -1,0 +1,4 @@
+/* pages/monthCourseContent/monthCourseContent.wxss */
+@import '../communal/communal.wxss';
+.detailsSmallImg{position: relative;top: 5rpx;}
+.detailsFont12{line-height: 18rpx;}

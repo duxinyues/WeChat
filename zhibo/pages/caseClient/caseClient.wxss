@@ -1,0 +1,11 @@
+/* pages/caseClient/caseClient.wxss */
+@import '../communal/communal.wxss';
+page{
+  background-color: #F3F3F3;
+}
+.clientImage{
+  width:220rpx;
+  height:150rpx;
+  background:rgba(255,255,255,1);
+  border:1px solid rgba(229,229,229,1);
+}

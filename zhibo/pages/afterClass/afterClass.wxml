@@ -1,0 +1,40 @@
+<!--pages/afterClass/afterClass.wxml-->
+<!--pages/evaluate/evaluate.wxml-->
+<view class="swiper-tab">
+    <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">待评价</view>
+    <view class="swiper-tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab">已评价</view>
+</view>
+
+<swiper current="{{currentTab}}" duration="300"  bindchange="swiperTab" class='padding-bottom20'>
+    <swiper-item >
+      <view class='margin2'>
+        <view class='border-solid-radius padding2020 margin-top20 back flex-between height200'>
+          <view class='evaluate-swiper2 text-left'>
+            <view class='font-wei font-size16 font-left'>精品课程标题内容</view>
+            <view class='font-size14 font-left colorFFF'>2019/1/12 13:00-16:00</view>
+          </view>
+          <view class='but-blue2 font-size14  margin-top20 font-center' bindtap='clickEstimate'>立即评价</view>
+        </view>
+        <view class='border-solid-radius padding2020 margin-top20 back flex-between height200'>
+          <view class='evaluate-swiper2 text-left'>
+            <view class='font-wei font-size16 font-left'>精品课程标题内容</view>
+            <view class='font-size14 font-left colorFFF'>2019/1/12 13:00-16:00</view>
+          </view>
+          <view class='but-blue2 font-size14  margin-top20 font-center' bindtap='clickEstimate'>立即评价</view>
+        </view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class='margin2'>
+        <view class='border-solid-radius padding2020 margin-top20 back flex-between height200'>
+          <view class='evaluate-swiper2 text-left'>
+            <view class='font-wei font-size16 font-left'>精品课程标题内容</view>
+            <view class='font-size14 font-left colorFFF'>2019/1/12 13:00-16:00</view>
+          </view>
+          <view class='but-blue2 font-size14  margin-top20 font-center'>查看评价</view>
+        </view>
+      </view>  
+      </swiper-item>
+</swiper>
+
+

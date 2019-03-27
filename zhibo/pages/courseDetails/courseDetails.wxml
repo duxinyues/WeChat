@@ -1,0 +1,38 @@
+<!--pages/courseDetails/courseDetails.wxml-->
+<view class='margin2'>
+  <view class='margin20 detailsTitle'>
+    助推企业转型与升级
+  </view>
+  <view class='margin-bottom20'>
+    <view class='flex-start'>
+      <image src='/img/time.png' class='detailsSmallImg margin-right20'></image>
+      <text class='detailsFont12'>开课时间：2019/1/12 13:00-15:00</text>
+    </view>
+    <view class='flex-start'>
+      <image src='/img/site.png' class='detailsSmallImg margin-right20'></image>
+      <text class='detailsFont12'>开课地址：北京市朝阳区123号</text>
+    </view>
+        <view class='flex-start'>
+      <image src='/img/money.png' class='detailsSmallImg margin-right20'></image>
+      <view class='detailsFont12'>课程费用：<text class="colorReb">￥120.0</text></view>
+    </view>
+  </view>
+  <view class='height320'>
+    <image class='image' src='/img/image22.png'></image>
+  </view>
+  <view class='detailsFont14 text-indent1'>2019年是房地产行业最为关键的一年，黄博文老师从行业、战略、变革三个层面为在场的房企高管和人力负责人详细解读了人力资源在企业转型和升级中的重要作用，黄博文老师表示：未来，团队的重要性更为突出，团队效能需要机制赋予战斗力。房地产行业最重要的三个因素—钱、地、人。把人提到了最关键的位置上来，跟钱、跟地并列，人力资源就变得越来越受重视。旭辉的成功=正确的战略×战略执行力×经营节奏的把控×核心团队的不断自我突破，这样一个要素就是跟人有关。当战略成为发展瓶颈，核心团队的进化就尤其重要，未来14个月是房企生存发展的重要窗口期，老板的眼光和战略执行力将决定企业的发展方向和实现阶段性突破的可能性。</view>
+  <view class='height320'>
+    <image class='image' src='/img/image22.png'></image>
+  </view>
+   <view class='detailsFont14 text-indent1'>2019年是房地产行业最为关键的一年，黄博文老师从行业、战略、变革三个层面为在场的房企高管和人力负责人详细解读了人力资源在企业转型和升级中的重要作用，黄博文老师表示：未来，团队的重要性更为突出，团队效能需要机制赋予战斗力。房地产行业最重要的三个因素—钱、地、人。把人提到了最关键的位置上来，跟钱、跟地并列，人力资源就变得越来越受重视。旭辉的成功=正确的战略×战略执行力×经营节奏的把控×核心团队的不断自我突破，这样一个要素就是跟人有关。当战略成为发展瓶颈，核心团队的进化就尤其重要，未来14个月是房企生存发展的重要窗口期，老板的眼光和战略执行力将决定企业的发展方向和实现阶段性突破的可能性。</view>
+</view>
+<view class='applyCourse border-top'>
+  <view class='width50 float-left'>
+    <button open-type="contact" class='boder-none'>客服咨询</button>
+  </view>
+  <view class='width50 float-left'>
+    <button class='backC colorF boder-none'catchtap='applyCourse'>我要报名</button>
+  </view>
+</view>
+
+

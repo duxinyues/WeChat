@@ -1,0 +1,92 @@
+<!--pages/share/share.wxml-->
+<view class='padding020'>
+  <view class='back margin-top20 border-radius6 overflow-hidden'>
+    <view class='flex-between height90 padding020'>
+      <view class='font-size12 colorFFF'>订单编号：2020020</view>
+      <view class='font-size12 colorBlue'>领取人数：1/2</view>
+    </view>
+
+    <view class='backF5 padding2020 flex-start'>
+      <view class='width333 height120'>
+        <image src='/img/image22.png'></image>
+      </view>
+      <view class='padding2020 width666'>
+        <view class='font-size14 font-wei'>课程标题内容</view>
+        <view class='font-size14'>上海某某路口</view>
+        <view class='font-size14 colorFFF'>发布时间：2019/1/12</view>
+      </view>
+    </view>
+
+    <view class='back padding020'>
+      <view class='font-size12 colorFFF margin-top20'>下单时间：2018/12/12 12:23</view>
+      <view class='flex-between margin20  border-bottom'>
+        <view class='font-size12 colorFFF'>听课人数2人</view> 
+        <view class='font-size12 colorFFF'>
+          合计费用
+          <text class='font-size12 colorReb'>￥123.0</text>
+        </view>
+      </view>
+
+      <view class='flex-between margin-bottom20'>
+        <view class='flex-start'>
+          <view class='width-40 height50'>
+            <image src='/img/tixing.png'></image>
+          </view>
+          <view class='font-size16'>一人拒绝</view>
+        </view>
+        <view>
+          <button class='backC colorF font-size18 padding2020' bindtap='shareContent'>继续分享</button>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='back margin-top20 border-radius6 overflow-hidden'>
+    <view class='flex-between height90 padding020'>
+      <view class='font-size12 colorFFF'>订单编号：2020020</view>
+      <view class='font-size12 colorBlue'>领取人数：1/2</view>
+    </view>
+
+    <view class='backF5 padding2020 flex-start'>
+      <view class='width333 height120'>
+        <image src='/img/image22.png'></image>
+      </view>
+      <view class='padding2020 width666'>
+        <view class='font-size14 font-wei'>课程标题内容</view>
+        <view class='font-size14'>上海某某路口</view>
+        <view class='font-size14 colorFFF'>发布时间：2019/1/12</view>
+      </view>
+    </view>
+
+    <view class='back padding020'>
+      <view class='font-size12 colorFFF margin-top20'>下单时间：2018/12/12 12:23</view>
+      <view class='flex-between margin20  border-bottom'>
+        <view class='font-size12 colorFFF'>听课人数2人</view> 
+        <view class='font-size12 colorFFF'>
+          合计费用
+          <text class='font-size12 colorReb'>￥123.0</text>
+        </view>
+      </view>
+
+      <view class='flex-between margin-bottom20'>
+        <view class=''></view>
+        <view>
+          <button class='backC colorF font-size18 padding2020'>等待开课</button>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>
+
+<view class='masking flex1' wx:if="{{showModal}}" catchtap='close_mask'>
+  <view class='back border-radius6 width80 height320 flex3 padding4040 margin-top-300'>
+    <view class='flex-start'>
+      <view class='imageP'>
+        <image src='/img/image20.png'></image>
+      </view>
+      <text class='font-size16 font-wei margin-left20'>用户姓名</text><text class='margin-left20 font-size12'>职位</text>
+    </view>
+    <view class='font-size14 margin-top20'>拒绝理由：时间不适合</view>
+  </view>
+</view>

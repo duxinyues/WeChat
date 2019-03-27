@@ -1,0 +1,2 @@
+/* pages/opinion/opinion.wxss */
+@import '../communal/communal.wxss';

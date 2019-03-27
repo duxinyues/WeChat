@@ -1,0 +1,62 @@
+@import '../communal/communal.wxss';
+page{
+  background-color: #F3F3F3;
+}
+.swiper-tab{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    line-height: 88rpx;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background-color: #fff;
+    font-size: 16px;
+} 
+.swiper-tab::before{
+  position: absolute;
+  content: "";
+  height: 45rpx;
+  left: 50%;
+  top: 25%;
+  border-left: 1px solid #466AF8;
+}
+swiper-item{
+   overflow: visible; 
+}
+.swiper-tab-item{
+    width: 50%; 
+    color:#434343;
+    overflow: visible;
+} 
+
+.active{
+  position: relative;
+    font-weight: bold;
+    color:#466AF8;
+}
+.active::after{
+  content: "";
+  width: 110rpx;
+  border-bottom:6rpx solid #466AF8;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -55rpx;
+  border-radius: 10px;
+}
+swiper{
+  position: relative;
+  text-align: center;
+  height: 1000rpx;
+  /*临时待删改*/
+}
+.evaluate-swiper{
+  width: 40%;
+  height: 200rpx;
+}
+.evaluate-swiper2{
+  width: 60%;
+  padding-left: 20rpx;
+  box-sizing: border-box;
+}

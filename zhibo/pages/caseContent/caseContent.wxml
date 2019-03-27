@@ -1,0 +1,11 @@
+<!--pages/caseContent/caseContent.wxml-->
+<view class='padding2020'>
+  <view class='font-size18 font-wei500'>内容标题</view>
+  <view class='font-size12 font-wei400'>发布时间：2019/1/2 13：00</view>
+  <view class='height300 margin20'>
+    <image src='/img/image22.png'></image>
+  </view>
+  <view class='font-size14 font-wei400'>
+    内容正文
+  </view>
+</view>

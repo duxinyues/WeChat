@@ -1,0 +1,13 @@
+<!--pages/graduatePast/graduatePast.wxml-->
+<view class='padding2020'>
+  <view class='margin-top20 back border-solid-radius overflow-hidden flex-start  height200'>
+    <view class='width35 height200'>
+      <image src='/img/image22.png'></image>
+    </view>
+    <view class='width65 padding020 font-size14 '>
+      <view class='font-wei font-size16'>活动标题</view>
+      <view class=''>11月16日,由博志成举办的迎战2019赋能个体 激活组织——</view>
+      <view class='colorFFF'>2019/1/1 13:00-14:30</view>
+    </view>
+  </view>
+</view>

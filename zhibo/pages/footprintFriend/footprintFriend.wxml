@@ -1,0 +1,14 @@
+<!--pages/footprintFriend/footprintFriend.wxml-->
+<view class='margin2020 back border-radius6 flex-start padding2020' bindtap='clickFootprintContent'>
+  <view class=' width20 flex1'>
+    <image src='/img/image20.png' class='imageP'></image>
+  </view>
+  <view class='width80 font-size14 color30 padding-left10'>
+    <view class='margin10 font-size16 font-wei'>用户昵称</view>
+    <view>内容内容内容内容内容内容内容内容内容内容内容内容内容内容</view>
+    <view>2019/1/2 13:00</view>
+  </view>
+  <view class='width20 padding2020 height160'>
+    <image src='/img/image20.png' class=''></image>
+  </view>
+</view>

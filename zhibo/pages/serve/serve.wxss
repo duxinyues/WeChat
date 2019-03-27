@@ -1,0 +1,24 @@
+/* pages/serve/serve.wxss */
+@import '../communal/communal.wxss';
+@import '../templates/courses.wxss';
+.swiper-tab{
+    width: 200%;
+    border-bottom: 2rpx solid #ccc;
+    text-align: center;
+    height: 88rpx;
+    line-height: 88rpx;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+swiper{
+  height: 1000rpx;
+}
+.swiper-tab-item{
+    width: 30%; 
+    color:#434343;
+}
+.active{
+    color:#466AF8;
+    border-bottom: 4rpx solid #466AF8;
+}

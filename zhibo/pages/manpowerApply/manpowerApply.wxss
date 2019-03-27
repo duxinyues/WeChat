@@ -1,0 +1,56 @@
+/* pages/manpowerApply/manpowerApply.wxss */
+@import '../communal/communal.wxss';
+.applyBody{
+  padding: 35px 30px; 
+  line-height: 90rpx;
+}
+.marginIop100{
+  margin-top:100rpx; 
+}
+.but{
+  margin: 40rpx auto;
+}
+.inputStyle{
+  position: relative;
+  background:rgba(255,255,255,1);
+  border:1px solid rgba(220,220,220,1);
+  border-radius:6px;
+  font-size:15px;
+  font-family:PingFangSC-Medium;
+  font-weight:500;
+  color:rgba(102,102,102,1);
+}
+.inputStyleSon{
+  position: relative;
+}
+.inputStyle input{padding-left: 15rpx;}
+.padding020{font-weight: bold;}
+/* .inputStyleSon::after{
+  position: absolute;
+  content: "";
+  border-right: 1rpx solid rgba(210, 210, 210, 1);
+  height: 17px;
+  top: 50%;
+  right: 5px;
+  margin-top:-8.5rpx;
+} */
+/* radio{border:1px solid red;width: 49rpx;height: 49rpx;position: relative;top: 24.5rpx;} */
+/* radio .wx-radio-input{ 
+    border-radius: 50%; 
+    height: 49rpx; 
+    width: 49rpx;
+ } */
+radio .wx-radio-input.wx-radio-input-checked::before{
+    /* 自定义样式.... */ 
+    background-color: #466AF8;
+    color: #fff;
+    width:70rpx;
+    height: 70rpx;
+    border-radius: 50%; 
+    text-align: center;
+    line-height: 70rpx;
+}
+.font-b{
+  font-weight: bold;
+}
+.padding4040{text-align: center;}

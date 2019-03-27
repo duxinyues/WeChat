@@ -1,0 +1,27 @@
+<!--pages/estimate/estimate.wxml-->
+<view class='padding2020'>
+  <view>
+    <view class='margin-bottom20'>1、你感觉这次课程还满意吗？</view>
+    <radio-group class="radio-group flex-vertical" bindchange="radioChange">
+      <label class="radio height90" wx:for="{{items}}">
+          <radio  value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+      </label>
+    </radio-group>
+  </view>
+
+  <view>
+    <view class='margin-bottom20'>2、你感觉这次课程还满意吗？</view>
+    <radio-group class="radio-group flex-vertical" bindchange="radioChange">
+      <label class="radio height90" wx:for="{{items}}">
+          <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+      </label>
+    </radio-group>
+  </view>
+
+  <view>
+    <view>请填写你的宝贵意见</view>
+    <textarea placeholder="" class='border-solid-radius width100 margin20'></textarea>
+    <button class='backC colorF width90' bindtap='questionnaireEnd'>提交问卷</button>
+  </view>
+
+</view>

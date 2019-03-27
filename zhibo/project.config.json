@@ -1,0 +1,72 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.6.0",
+	"appid": "wx5cf130bb22f7fc90",
+	"projectname": "bozhi1",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 3,
+			"list": [
+				{
+					"id": -1,
+					"name": "课程",
+					"pathName": "pages/course/course",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/MyMine/MyMine",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "开课",
+					"pathName": "pages/schoolBegin/schoolBegin",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "课后评价",
+					"pathName": "pages/evaluate/evaluate",
+					"scene": null
+				}
+			]
+		}
+	}
+}

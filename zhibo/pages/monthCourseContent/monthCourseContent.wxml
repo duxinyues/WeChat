@@ -1,0 +1,32 @@
+<!--pages/monthCourseContent/monthCourseContent.wxml-->
+<view class='height280'>
+  <image src='/img/image22.png'></image>
+</view>
+<view class='padding2020 font-size14'>
+  <view class='font-wei font-size16'>活动标题内容</view>
+  <view class='colorFFF'>
+      <image src='/img/time.png' class='detailsSmallImg margin-right20'></image>
+      <text class='detailsFont12'>活动时间：2019/1/12 13:00-15:00</text>
+  </view>
+  <view class='colorFFF'>
+      <image src='/img/site.png' class='detailsSmallImg margin-right20'></image>
+      <text class='detailsFont12'>活动地址：</text>
+  </view>
+  <view class='padding-bottom20 border-bottom'>
+      <image src='/img/money.png' class='detailsSmallImg margin-right20'></image>
+      <text class='detailsFont12 colorReb'>活动费用：<text class='colorReb font-wei'>￥120.0/人</text></text>
+      
+    </view>
+  <view class='padding20'>文章内容省略</view>
+</view>
+<view class='flex-start font-size14 height110 border-top position-bottom width100 bottomButShadow'>
+  <view class='width50 flex1 height-100' bindtap='clickAdvisoryServe'>
+    <view class='flex-start'>
+      <view class='width-50 height50'>
+        <image src='/img/image21.png'></image>
+      </view>
+      <text>客服咨询</text> 
+    </view>
+  </view>
+  <view class='width50 backC colorF height-100 flex1' bindtap='clickSubmit'>我要报名</view>
+</view>

@@ -1,0 +1,9 @@
+/* pages/footprintContent/footprintContent.wxss */
+@import '../communal/communal.wxss';
+@import '../templates/courses.wxss';
+page{
+  background-color: #F3F3F3;
+}
+.school-image{
+  height: 240rpx;
+}

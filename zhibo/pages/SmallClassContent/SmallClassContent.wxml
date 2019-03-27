@@ -1,0 +1,22 @@
+<!--pages/SmallClassContent/SmallClassContent.wxml-->
+<view class='height280'>
+  <image src='/img/image22.png'></image>
+</view>
+<view class='padding020'>
+  <view class='margin-top20 font-wei font-size16'>精彩课程标题</view>
+  <view class='padding20 font-size12 colorFFF border-bottom'>时间：2019/1/12 13:00-16:00</view>
+  <view class='padding20 font-size14'>
+     文章内容
+     <view class='height240 margin20'>
+      <image src='/img/image22.png'></image>
+     </view>
+  </view>
+</view>
+<view class='flex1'>
+  <view class='font-size16 font-wei'>添加课程顾问报名听课</view>
+  <view class='width-320 height240 margin-top20'>
+    <image src='/img/image25.png'></image>
+  </view>
+</view>
+
+

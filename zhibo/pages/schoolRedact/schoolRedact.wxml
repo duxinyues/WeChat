@@ -1,0 +1,16 @@
+<!--pages/schoolRedact/schoolRedact.wxml-->
+<view class='padding4040'>
+  <view class='height320 border-bottom'>
+    <form>
+      <input placeholder='你想发布的内容'></input>
+    </form>
+  </view>
+  <view>
+    <view class='margin20'>添加图片0/9</view>
+    <view class='width-200 height200'>
+      <image src='/img/image11.png'></image>
+    </view>
+  </view>
+</view>
+
+<button class='but-bottom' bindtap='submit'>发布</button>

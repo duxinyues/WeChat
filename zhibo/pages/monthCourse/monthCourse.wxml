@@ -1,0 +1,39 @@
+<!--pages/monthCourse/monthCourse.wxml-->
+<view class='margin2020'>
+  <view class=' back border-solid-radius overflow-hidden margin-top20'>
+    <view class='height300'>
+      <image src='/img/image22.png'></image>
+    </view>
+    <view class='overflow-hidden margin-top20'>
+      <view class='float-left'>
+        <view class='monthFont14 margin-left20 title'>标题内容标题</view>
+        <view class='detailsFont12  margin-left20'>开课时间：2019/1/12  13:00-16:00</view>
+        <view class='font-size13 text-indent1 margin20'>
+          课程费用
+          <text class='font-size14 font-wei colorReb'>￥120</text>
+        </view>
+      </view>
+      <view class='float-right'>
+        <button class='buttonPR backC colorF' bindtap='clickMonthCourseContent'>立即报名</button>
+      </view>
+    </view>
+  </view>
+    <view class=' back border-solid-radius overflow-hidden margin-top20'>
+    <view class='height300'>
+      <image src='/img/image22.png'></image>
+    </view>
+    <view class='overflow-hidden margin-top20'>
+      <view class='float-left'>
+        <view class='monthFont14 margin-left20'>标题内容标题</view>
+        <view class='detailsFont12  margin-left20'>开课时间：2019/1/12  13:00-16:00</view>
+        <view class='font-size13 text-indent1 margin20'>
+          课程费用
+          <text class='font-size14 font-wei colorReb'>￥120</text>
+        </view>
+      </view>
+      <view class='float-right'>
+        <button class='buttonPR backBF colorF'>报名截止</button>
+      </view>
+    </view>
+  </view>
+</view>

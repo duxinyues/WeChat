@@ -1,0 +1,5 @@
+<!--pages/opinion/opinion.wxml-->
+<view class='padding020'>
+  <textarea placeholder="请输入您宝贵的意思" class='border-solid-radius width100 padding2020 margin20 height480'></textarea>
+  <button class='backC colorF margin-top180' bindtap='clcikGood'>提交</button>
+</view>

@@ -1,0 +1,8 @@
+<!--pages/evaluateContent/evaluateContent.wxml-->
+<view class='padding2020'>
+  <view class='font-wei margin-bottom20'>标题</view>
+  <view class='font-size16 colorFFF margin-bottom20'>内容正文</view>
+  <view class='height240'>
+    <image src='/img/image22.png'></image>
+  </view>
+</view>

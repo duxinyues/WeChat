@@ -1,0 +1,5 @@
+/* pages/advisoryMore/advisoryMore.wxss */
+@import '../communal/communal.wxss';
+page{
+  background-color: #F3F3F3;
+}

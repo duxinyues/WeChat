@@ -1,0 +1,26 @@
+/* pages/advisoryServe/advisoryServe.wxss */
+@import '../communal/communal.wxss';
+page{
+  background-color: #F3F3F3;
+}
+.maskingImage{
+  width:92rpx;
+  height:92rpx;
+}
+.masking-son{
+  width:568rpx;
+  height:480rpx;
+  background:rgba(255,255,255,1);
+  box-shadow:0px 4px 15px 0px rgba(50,50,50,0.41);
+  border-radius:6px;
+  color: #000;
+  padding: 40rpx;
+  box-sizing: border-box;
+}
+.masking-but{
+  width:236rpx;
+  height:80rpx;
+  border-radius:6px;
+  color: #fff;
+}
+.flex-center{text-align: center;}

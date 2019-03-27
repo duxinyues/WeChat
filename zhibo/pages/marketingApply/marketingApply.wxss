@@ -1,0 +1,36 @@
+/* pages/marketingApply/marketingApply.wxss */
+@import '../communal/communal.wxss';
+page{
+  background-color: #F3F3F3;
+}
+.applyBody{
+  padding: 35px 30px; 
+  line-height: 90rpx;
+}
+.marginIop100{
+  margin-top:100rpx; 
+}
+.but{
+  margin: 40rpx auto;
+}
+.padding020{
+  font-size: 30rpx;
+}
+.margin-bottom20 input{
+  padding-left: 18rpx;
+  font-size: 30rpx;
+}
+.height90{
+  color: #999999;
+}
+radio .wx-radio-input.wx-radio-input-checked::before{
+    /* 自定义样式.... */ 
+    background-color: #466AF8;
+    color: #fff;
+    width:70rpx;
+    height: 70rpx;
+    border-radius: 50%; 
+    text-align: center;
+    line-height: 70rpx;
+}
+.sub1{position: relative;top: 70rpx;}

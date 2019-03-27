@@ -1,0 +1,50 @@
+<!--pages/SmallClass/SmallClass.wxml-->
+<view class='height220'>
+  <image class='image' src='/img/test1.png'></image>
+</view>
+
+<view class='margin2'>
+  <view class='flex-between margin20'>
+    <text class='font-wei'>最新预告</text>
+    <navigator class='font-size12 colorFFF' url=''>更多...</navigator>
+  </view>
+
+  <view class=' back border-solid-radius overflow-hidden' bindtap='openCoursesD'>
+    <view class='height240'>
+      <image src='/img/image22.png'></image>
+    </view>
+    <view class='overflow-hidden margin-top20' bindtap='openCoursesD'>
+      <view class='float-left'>
+        <view class='font-wei font-size14 text-indent1'>标题内容标题</view>
+        <view class='font-size12 text-indent1 margin-bottom20 colorFFF'>发布时间：2019/1/23</view>
+      </view>
+      <view class='float-right'>
+        <button class='buttonPR backC colorF'>立即参加</button>
+      </view>
+    </view>
+  </view>
+  
+</view>
+
+<view class='margin2'>
+  <view class='flex-between margin20'>
+    <text class='font-wei'>往期回顾</text>
+    <navigator class='font-size12 colorFFF' url='/pages/SmallClassPast/SmallClassPast'>更多...</navigator>
+  </view>
+  <view class=' back border-solid-radius overflow-hidden margin-bottom20'>
+    <view class='height240' bindtap='openCoursesD'>
+      <image src='/img/image22.png'></image>
+    </view>
+      <view class='font-wei font-size14 text-indent1'>标题内容标题</view>
+      <view class='font-size12 text-indent1 margin-bottom20 colorFFF'>发布时间：2019/1/23</view>
+  </view>
+  
+    <view class=' back border-solid-radius overflow-hidden  margin-bottom20' bindtap='openCoursesD'>
+    <view class='height240'>
+      <image src='/img/image22.png'></image>
+    </view>
+      <view class='font-wei font-size14 text-indent1'>标题内容标题</view>
+      <view class='font-size12 text-indent1 margin-bottom20 colorFFF'>发布时间：2019/1/23</view>
+  </view>
+
+</view>

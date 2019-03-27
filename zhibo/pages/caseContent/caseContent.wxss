@@ -1,0 +1,8 @@
+/* pages/caseContent/caseContent.wxss */
+@import '../communal/communal.wxss';
+.clientImage{
+  width:220rpx;
+  height:150rpx;
+  background:rgba(255,255,255,1);
+  border:1px solid rgba(229,229,229,1);
+}
