@@ -7,6 +7,11 @@ Page({
   data: {
 
   },
+  contact:function(){
+    wx.makePhoneCall({
+      phoneNumber: '1340000' 
+    })
+  },
   clickOpinion2: function () {
     wx.navigateTo({
       url: '/pages/opinion2/opinion2'

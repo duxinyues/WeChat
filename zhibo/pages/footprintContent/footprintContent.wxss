@@ -7,3 +7,9 @@ page{
 .school-image{
   height: 240rpx;
 }
+.school-head{padding-top: 20rpx;}
+.head-time{font-size: 24rpx;}
+.school-text{font-size: 28rpx;}
+.open-all{font-size: 28rpx;color: #3366FF;padding-left: 23rpx;}
+.pl{font-size: 30rpx;color: #333;font-weight: 600;}
+.colorFFF{font-weight: normal;}

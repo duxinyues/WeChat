@@ -45,7 +45,6 @@
     "pages/estimate/estimate",
     "pages/examine/examine",
     "pages/indent/indent",
-    "pages/indentTrip/indentTrip",
     "pages/footprint/footprint",
     "pages/footprintFriend/footprintFriend",
     "pages/footprintContent/footprintContent",
@@ -65,9 +64,11 @@
     "pages/evaluateContent/evaluateContent",
     "pages/marketing/marketing",
     "pages/marketingContent/marketingContent",
-    "pages/marketingApply/marketingApply"
+    "pages/marketingApply/marketingApply",
+    "pages/tripChange/tripChange"
   ],
   "tabBar":{
+    "selectedColor": "#466AF8",
     "list":[
       {
           "pagePath": "pages/index/index",

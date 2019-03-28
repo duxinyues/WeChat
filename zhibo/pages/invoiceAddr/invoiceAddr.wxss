@@ -3,3 +3,7 @@
 page{
   background-color: #F3F3F3;
 }
+.back{width: 706rpx;height: 256rpx;margin-top: 30rpx;}
+.font-wei{font-size: 30rpx;}
+.padding20{font-size: 30rpx;}
+.but-blue2{width: 164rpx;height: 60rpx;font-size: 30rpx;text-align: center;line-height: 35rpx;}

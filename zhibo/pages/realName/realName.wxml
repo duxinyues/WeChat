@@ -2,29 +2,29 @@
 <!--pages/personality/personality.wxml-->
 
 <view class='height120 back flex-between padding020 font-size16 margin-top20'>
-  <view>姓名</view>
-  <view>用户名<text>></text></view>
+  <view class='left-info'>姓名</view>
+  <view>用户名<image src='/img/fangxiang.png' class="jiantou"></image></view>
 </view>
 
 <view class='height120 back flex-between padding020 font-size16 margin-top20' bindtap='clickRealName'>
-  <view>证件类型</view>
-  <view>身份证<text>></text></view>
+  <view class='left-info'>证件类型</view>
+  <view>身份证<image src='/img/fangxiang.png' class="jiantou"></image></view>
 </view>
 <view class='height120 back flex-between padding020 font-size16 margin-top20'>
-  <view>证件号</view>
-  <view>523523524<text>></text></view>
+  <view class='left-info'>证件号</view>
+  <view>523523524<image src='/img/fangxiang.png' class="jiantou"></image></view>
 </view>
 
 <view class='height120 back flex-between padding020 font-size16 margin-top20'>
-  <view>电话号码</view>
-  <view>134235245<text>></text></view>
+  <view class='left-info'>电话号码</view>
+  <view>134235245<image src='/img/fangxiang.png' class="jiantou"></image></view>
 </view>
 
 <view class='height120 back flex-between  padding020 font-size16 margin-top20'>
   <view>
     <input type='text' class='' placeholder='请输入验证码'>
   </input></view>
-  <view class='colorBlue font-size16'>
+  <view class='colorBlue font-size16 vt'>
     <text>发送验证码</text>
   </view>
 </view>

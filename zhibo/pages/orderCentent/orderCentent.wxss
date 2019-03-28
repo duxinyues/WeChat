@@ -11,3 +11,12 @@ page{
   bottom: 30rpx;
   margin-left: -300rpx;
 }
+.jiantou{
+  display: block;
+  width: 17rpx;
+  height: 32rpx;
+  margin-left: 15rpx;
+}
+.num{
+  font-size: 28rpx;
+}

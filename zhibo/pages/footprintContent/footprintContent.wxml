@@ -8,18 +8,21 @@
     </view>
     <view class='width80'>
       <view class='font-wei font-size14'>用户昵称</view>
-      <view class='font-size14 colorFFF'>2019/1/12 13:23</view>
+      <view class='font-size14 colorFFF head-time'>2019/1/12 13:23</view>
     </view>
   </view>
-  <view class='school-text font-size14 padding020 margin-top20'>本次嘉宾涵盖行业学者、实战专家、名企高管等等等省略省略</view>
+  <view class='school-text font-size14 padding020 margin-top20'>
+    本次嘉宾涵盖行业学者、实战专家、名企高管等莅临分享，房地产HR精英们齐聚一堂，碰撞思维，交换
+  </view>
+  <view class="open-all">展开全部</view>
   <view class='school-image padding2020 margin-bottom20'>
     <image src='/img/test1.png' class='image'></image>
   </view>
 </view>
 
 <view class='margin2020 flex-between font-size16'>
-  <view>评论<text class='colorFFF'>(123)</text></view>
-  <view>点赞<text class='colorFFF margin-right20'>(123)</text>分享<text class='colorFFF'>(123)</text></view>
+  <view class="pl">评论<text class='colorFFF'>(123)</text></view>
+  <view class="pl">点赞<text class='colorFFF margin-right20'>(123)</text>分享<text class='colorFFF'>(123)</text></view>
 </view>
 
 <view class='border-solid-radius margin2020 back'>

@@ -1,7 +1,7 @@
 <!--pages/unitsContent/unitsContent.wxml-->
 <form>
     <view class='height120 back flex-between padding020 font-size16 margin-top20' bindtap='clickUnitsContent'>
-      <view>{{unitsTitle}}</view>
+      <view class='unitsTitle'>{{unitsTitle}}</view>
       <view class='width20'><input placeholder='输入内容'></input></view>
     </view>
 </form>

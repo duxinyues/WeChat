@@ -1,15 +1,15 @@
 <!--pages/units/units.wxml-->
 <view class='height120 back flex-between padding020 font-size16 margin-top20' bindtap='clickUnitsContent' data-gid="0">
-  <view>单位名称</view>
-  <view>博志成集团<text>></text></view>
+  <view class="left-con">单位名称</view>
+  <view>博志成集团 <image src='/img/fangxiang.png' class='jiantou'></image></view>
 </view>
 
 <view class='height120 back flex-between padding020 font-size16 margin-top20' bindtap='clickUnitsContent' data-gid="1">
-  <view>联系电话</view>
-  <view>13323412341<text>></text></view>
+  <view class="left-con">联系电话</view>
+  <view>13323412341 <image src='/img/fangxiang.png' class='jiantou'></image></view>
 </view>
 
 <view class='height120 back flex-between padding020 font-size16 margin-top20' bindtap='clickUnitsContent' data-gid="2">
-  <view>联系人</view>
-  <view>张经理<text>></text></view>
+  <view class="left-con">联系人</view>
+  <view>张经理 <image src='/img/fangxiang.png' class='jiantou'></image></view>
 </view>

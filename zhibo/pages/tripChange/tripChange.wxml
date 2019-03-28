@@ -40,6 +40,10 @@
           </picker>
           <image src="/img/plus-select-down.png" class="jiantou"></image>
         </view>
-    <button class='backC colorF margin-top80' bindtap='clickPayment'>提交行程</button>
+        <view class="btn">
+          <button class='backC colorF margin-top80' bindtap='tel'>联系客服</button>
+          <button class='backC colorF margin-top80' bindtap='clickPayment'>提交行程</button>
+        </view>
+    
   </form>
 </view>

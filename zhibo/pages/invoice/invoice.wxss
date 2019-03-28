@@ -4,3 +4,16 @@
 page{
   background-color: #F3F3F3;
 }
+.left-title{
+  font-size: 30prx;
+  color: #333333;
+  font-weight: 600;
+}
+
+.jiantou{
+  width: 17rpx;
+  height: 32rpx;
+  position: relative;
+  top: 8rpx;
+  margin-left: 15rpx;
+}

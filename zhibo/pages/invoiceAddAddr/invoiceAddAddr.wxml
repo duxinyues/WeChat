@@ -5,7 +5,7 @@
     <view class='flex-between'>
       <input placeholder='请输入您的姓名' class='text-right'></input>
       <view class='width-30 height40'>
-        <image src="/img/fangxiang.png"></image>
+        <image src="/img/fangxiang.png" class='jiantou'></image>
       </view>
     </view>
   </view>
@@ -17,7 +17,7 @@
     <view class='flex-between'>
       <input placeholder='请输入您的电话' class='text-right'></input>
       <view class='width-30 height40'>
-        <image src="/img/fangxiang.png"></image>
+        <image src="/img/fangxiang.png" class='jiantou'></image>
       </view>
     </view>
   </view>
@@ -27,7 +27,7 @@
     <view class='flex-between'>
       <input placeholder='请选择您所在的地址' class='text-right'></input>
       <view class='width-30 height40'>
-        <image src="/img/fangxiang.png"></image>
+        <image src="/img/fangxiang.png" class='jiantou'></image>
       </view>
     </view>
   </view>
@@ -43,7 +43,7 @@
     <view class='flex-between'>
       <radio-group class="radio-group" >
         <label class="radio" >
-            <radio value="" checked=""/>
+            <radio value="" checked="checked"/>
         </label>
       </radio-group>
     </view>

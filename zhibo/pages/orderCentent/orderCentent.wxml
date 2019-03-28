@@ -12,7 +12,7 @@
           <view class='padding2020 width666 text-left'>
             <view class='font-size14 font-wei'>课程标题内容</view>
             <view class='font-size14'>上海某某路口</view>
-            <view class='font-size14 colorFFF'>发布时间：2019/1/12</view>
+            <view class='font-size14 colorFFF'>2018/12/12  18:00-19:00</view>
           </view>
         </view>
 
@@ -23,17 +23,17 @@
 
 <view class='flex-center back margin-top20'>
   <navigator url=""class="width90 flex-between border-bottom">
-    <text class='font-size14 font-wei margin20'>听课人数</text>
-    <view class='flex-between'>
-      <text class='font-size16 colorFFF'>1人</text>
-      <image src="/img/fangxiang.png" class='width-30 height40'></image>
+    <text class='font-size14 font-wei margin20'>听课人数 :</text>
+    <view class='flex-between a '>
+      <view class='num'>1人</view>
+      <image src="/img/fangxiang.png" class='jiantou' ></image>
     </view>
   </navigator>
 </view>
 
 <view class='flex-center back margin-top20'>
   <navigator url=""class="width90 flex-between border-bottom">
-    <text class='font-size14 font-wei margin20'>听课人数</text>
+    <text class='font-size14 font-wei margin20'>合计费用 :</text>
     <view class='flex-between'>
       <text class='font-size16 colorReb'>￥123.0</text>
     </view>

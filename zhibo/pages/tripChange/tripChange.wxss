@@ -40,3 +40,7 @@
 
 .jiantou{width: 36rpx;height: 36rpx;position: absolute;right: 15rpx;}
 
+.btn{position: relative}
+.btn button{width: 45%;position: absolute;}
+.btn button:nth-child(1){left: 0}
+.btn button:nth-child(2){right: 0}

@@ -19,10 +19,28 @@
   </view>
 
   <view>
-    <view>请填写你的宝贵意见</view>
+    <view class="ad-title">请填写你的宝贵意见</view>
     <textarea placeholder="" class='border-solid-radius width100 margin20'></textarea>
-    <button class='backC colorF width90' bindtap='questionnaireEnd'>提交问卷</button>
+    <button class='backC colorF width90' bindtap='toShowModal'>提交问卷</button>
   </view>
-
 </view>
+
+<!--custom Modal-->
+<view class="modal-mask" bindtap="hideModal" wx:if="{{showModal}}"></view>
+<view wx:if="{{showModal}}">
+  <view class="modal-content">
+    <view class='modal-photo'>
+      <image class="userinfo-avatar" src="/img/iconf.png" ></image>
+    </view>
+    <view class="tips-title">提示</view>
+    <view class="tips-con">
+      确定放弃填写当前的调查问卷吗？放弃填写您将不能下载课程资料。
+    </view>
+    <view class='btns'>
+      <button class='btn' bindtap="hideModal">放弃</button>
+      <button class='btn' bindtap="hideModal">继续填写</button>
+    </view>
+  </view>
+</view>
+
 

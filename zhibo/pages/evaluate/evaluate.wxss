@@ -29,12 +29,12 @@ swiper-item{
 }
 .active::after{
   content: "";
-  width: 110rpx;
+  width: 80rpx;
   border-bottom:6rpx solid #466AF8;
   position: absolute;
   left: 50%;
   bottom: 0;
-  margin-left: -55rpx;
+  margin-left: -40rpx;
   border-radius: 10px;
 }
 swiper{
@@ -44,11 +44,79 @@ swiper{
   /*临时待删改*/
 }
 .evaluate-swiper{
-  width: 40%;
-  height: 200rpx;
+  width: 188rpx;
+  height: 154rpx;
 }
 .evaluate-swiper2{
   width: 60%;
   padding-left: 20rpx;
   box-sizing: border-box;
 }
+.evaluate-swiper2{height: 154rpx;position: relative;}
+.but-blue{
+  width: 160rpx;
+  height: 60rpx;
+  line-height: 35rpx;
+  position: absolute;
+  bottom: 0;
+}
+.font-wei{position: absolute;top: -10rpx;}
+.time{font-size: 24rpx;padding: 5rpx 0;position: absolute;top: 35rpx;}
+.colorBlue {position: absolute;top: 45rpx;}
+.colorFFF{position: absolute;bottom: 0;}
+
+
+/* for custom modal */
+
+.modal-mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.5;
+  overflow: hidden;
+  z-index: 9000;
+  color: #fff;
+}
+
+.modal-content {
+  width: 568rpx;
+  height: 480rpx;
+  position: fixed;
+  top: 377rpx;
+  left: 91rpx;
+  background: #fff;
+  z-index: 9999
+}
+.modal-photo {
+  width: 82rpx;
+  height: 86rpx;
+  margin: 0 auto;
+  margin-top: 37rpx;
+}
+.tips-title{font-size: 36rpx;color: #000;text-align: center;font-weight: 600;padding: 45rpx 0 27rpx 0;}
+.tips-con{font-size: 30rpx;color: #000;text-align: center;padding: 0 70rpx;}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64rpx;
+  padding: 0 10rpx;
+}
+
+.btn {
+  width: 246rpx;
+  height: 75rpx;
+  font-size: 30rpx;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 20rpx; 
+}
+ .btn:nth-child(1){
+   background: #BFBFBF
+ }
+ .btn:nth-child(2){
+   background: #466AF8
+ }

@@ -3,7 +3,7 @@
   <view class='margin2 height320 back border-radius6 padding4040 memberHead'>
     <view class='text-align border-bottom font-size18'>
         <view class='font-wei font-size26'>17</view>
-        <view class='font-size18 margin-bottom20'>当前剩余听课次数</view>
+        <view class='font-size18 margin-bottom20 title-con'>当前剩余听课次数</view>
     </view>
     <view class='flex-between margin-top20  font-size14'>
       <view class='text-align'>
@@ -23,7 +23,7 @@
 </view>
 
 <view class='margin2'>
-  <view class='flex-between margin20'>
+  <view class='flex-between margin20 sy-title'>
     <text class='font-wei'>使用详情</text>
   </view>
 
@@ -33,10 +33,10 @@
       <view class='width333 height180 float-left padding2020'>
         <image src='/img/image22.png'></image>
       </view>
-      <view class='float-left padding2020 width666'>
-        <view class='font-wei font-size16'>活动标题</view>
-        <view class='font-size12 colorFFF'>2019/1/12 13:00-16:00</view>
-        <view class='font-size12 colorFFF'>听课人数2人</view>
+      <view class='float-left right-text padding2020 width666'>
+        <view class='font-wei font-size16 ac-tit'>活动标题</view>
+        <view class='font-size12 colorFFF ac-time'>2019/1/12 13:00-16:00</view>
+        <view class='font-size12 colorFFF ac-num'>听课人数2人</view>
       </view>
     </view>
 
@@ -44,10 +44,10 @@
       <view class='width333 height180 float-left padding2020'>
         <image src='/img/image22.png'></image>
       </view>
-      <view class='float-left padding2020 width666'>
-        <view class='font-wei font-size16'>活动标题</view>
-        <view class='font-size12 colorFFF'>2019/1/12 13:00-16:00</view>
-        <view class='font-size12 colorFFF'>听课人数2人</view>
+      <view class='float-left right-text padding2020 width666'>
+        <view class='font-wei font-size16 ac-tit'>活动标题</view>
+        <view class='font-size12 colorFFF ac-time'>2019/1/12 13:00-16:00</view>
+        <view class='font-size12 colorFFF ac-num'>听课人数2人</view>
       </view>
     </view>
   </view>

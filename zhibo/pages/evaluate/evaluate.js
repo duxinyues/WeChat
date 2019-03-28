@@ -1,11 +1,14 @@
 // pages/evaluate/evaluate.js
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    currentTab: 0
+    currentTab: 0,
+    showModal: false,
+    showModal: false,
   },
   swiperTab: function (e) {//滑动切换
     var that = this;
@@ -40,9 +43,9 @@ Page({
 
             if (res.confirm) {//这里是点击了确定以后
 
-             // wx.navigateTo({
-               // url: '/pages/evaluateApply/evaluateApply',
-             // })
+             wx.navigateTo({
+               url: '/pages/evaluateApply/evaluateApply',
+             })
 
             } else {//这里是点击了取消以后
 
@@ -63,28 +66,57 @@ Page({
     })
   },
   downloadContent:function(){
-    wx.showModal({
+    // wx.showModal({
 
-      title: '提示',
+    //   title: '提示',
 
-      content: '下载资料前需要您填写一个简单调查问卷',
+    //   content: '下载资料前需要您填写一个简单调查问卷',
 
-      success: function (res) {
+    //   success: function (res) {
 
-        if (res.confirm) {//这里是点击了确定以后
+    //     if (res.confirm) {//这里是点击了确定以后
 
-          wx.navigateTo({
-            url: '/pages/evaluateApply/evaluateApply',
-          })
+    //       wx.navigateTo({
+    //         url: '/pages/evaluateApply/evaluateApply',
+    //       })
 
-        } else {//这里是点击了取消以后
+    //     } else {//这里是点击了取消以后
 
         
 
-        }
+    //     }
 
-      }
+    //   }
 
+    // })
+  },
+  goQuest:function(){
+    wx.navigateTo({
+      url: '/pages/evaluateApply/evaluateApply',
+    })
+  },
+  goevaluateContent: function () {
+    wx.navigateTo({
+      url: '/pages/evaluateContent/evaluateContent',
+    })
+  },
+  toShowModal: function(e) {
+    this.setData({
+      showModal: true,
+      showModals: false,
+    })
+  },
+
+  hideModal: function() {
+    this.setData({
+      showModal: false,
+      showModals: false,
+    });
+  },
+  toShowModals: function (e) {
+    this.setData({
+      showModals: true,
+      showModal: false,
     })
   },
 

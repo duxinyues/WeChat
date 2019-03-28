@@ -7,6 +7,8 @@ Page({
   data: {
     showMasking: false,
     showMasking2: false,
+    select: false,
+    tihuoWay: '参与人数',
     showRadio: 1,
     items: [
       { name: 'personage', value: '个人用户', checked: 'true' },
@@ -48,6 +50,18 @@ Page({
     this.setData({
       showMasking: false,
       showMasking2: false
+    })
+  },
+  bindShowMsg() {
+    this.setData({
+      select: !this.data.select
+    })
+  },
+  mySelect(e) {
+    var name = e.currentTarget.dataset.name
+    this.setData({
+      tihuoWay: name,
+      select: false
     })
   },
   /**
