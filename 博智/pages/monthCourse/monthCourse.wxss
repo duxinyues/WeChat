@@ -9,10 +9,17 @@ page{
   right: 20rpx;
   font-size:14px;
   font-family:PingFangSC-Medium;
-  font-weight:500;
+  font-weight:bold;
   color:rgba(243,243,243,1);
   line-height:35px;
   width: 80px;
   height: 35px;
   padding: 0;
+}
+.title{
+  font-weight: bold
+}
+.margin20{
+  padding-left: 18rpx;
+  font-weight: bold;
 }

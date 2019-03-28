@@ -23,7 +23,9 @@
 .inputStyleSon{
   position: relative;
 }
-.inputStyleSon::after{
+.inputStyle input{padding-left: 15rpx;}
+.padding020{font-weight: bold;}
+/* .inputStyleSon::after{
   position: absolute;
   content: "";
   border-right: 1rpx solid rgba(210, 210, 210, 1);
@@ -31,4 +33,66 @@
   top: 50%;
   right: 5px;
   margin-top:-8.5rpx;
+} */
+/* radio{border:1px solid red;width: 49rpx;height: 49rpx;position: relative;top: 24.5rpx;} */
+/* radio .wx-radio-input{ 
+    border-radius: 50%; 
+    height: 49rpx; 
+    width: 49rpx;
+ } */
+radio .wx-radio-input.wx-radio-input-checked::before{
+    /* 自定义样式.... */ 
+    background-color: #466AF8;
+    color: #fff;
+    width:70rpx;
+    height: 70rpx;
+    border-radius: 50%; 
+    text-align: center;
+    line-height: 70rpx;
+}
+.font-b{
+  font-weight: bold;
+}
+.padding4040{text-align: center;}
+
+.list-msg2 {
+    width: 75%;
+    height: 60rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10rpx;
+}
+.part{
+  width: 20%;
+}
+
+.select_box {
+    background-color: #eee;
+    padding: 0 10rpx;
+    width: 65%;
+    position: absolute;
+    top: 715rpx;
+    right: 60rpx;
+    z-index: 1;
+    overflow: hidden;
+    animation: myfirst 0.5s;
+}
+ 
+@keyframes myfirst {
+    from {
+        height: 0rpx;
+    }
+ 
+    to {
+        height: 210rpx;
+    }
+}
+ 
+.select_one {
+    text-align: center;
+    font-size: 30rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    
 }

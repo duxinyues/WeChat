@@ -499,7 +499,7 @@ image{
 }
 
 .text-indent1{
-  text-indent: 1em;
+  /* text-indent: 1em; */
 }
 .text-indent2{
   text-indent: 2em;
@@ -559,7 +559,7 @@ image{
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,.5);
+  background: rgba(0,0,0,.7);
   z-index: 9000;
 }
 .masking-son{
@@ -567,6 +567,7 @@ image{
   margin: 0 auto;
   margin-top: 200rpx;
   border-radius: 6px;
+
 }
 .marking-close{
   position: absolute;

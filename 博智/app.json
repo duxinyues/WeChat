@@ -68,6 +68,7 @@
     "pages/marketingApply/marketingApply"
   ],
   "tabBar":{
+    "selectedColor": "#466AF8",
     "list":[
       {
           "pagePath": "pages/index/index",

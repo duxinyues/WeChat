@@ -14,11 +14,11 @@
         <view class='overflow-hidden padding3030 positionR'>
           <view class='float-left text-left'>
             <view class='font-wei500 font-size14'>标题内容标题</view>
-            <view class='font-size12 colorFFF'>发布时间：2019/1/23</view>
+            <view class='font-size12 colorFFF'>开课时间：2019/1/12 13:00-16:00</view>
             <view class='font-size12 colorFFF'>北京市某某街道</view>
             <view class='font-size12  font-wei500 margin-top10'>
-              活动费用
-              <text class='font-size15 font-wei500 colorReb'>￥120.0/人</text>
+              活动费用：
+              <text class='font-size15 font-wei500 colorReb'>￥120.0</text>
             </view>
           </view>
           <view class='float-right'>
@@ -34,11 +34,11 @@
         <view class='overflow-hidden padding3030 positionR'>
           <view class='float-left text-left'>
             <view class='font-wei500 font-size14'>标题内容标题</view>
-            <view class='font-size12 colorFFF'>发布时间：2019/1/23</view>
+            <view class='font-size12 colorFFF'>开课时间：2019/1/12 13:00-16:00</view>
             <view class='font-size12 colorFFF'>北京市某某街道</view>
             <view class='font-size12  font-wei500 margin-top10'>
-              活动费用
-              <text class='font-size15 font-wei500 colorReb'>￥120.0/人</text>
+              活动费用：
+              <text class='font-size15 font-wei500 colorReb'>￥120.0</text>
             </view>
           </view>
             <button class=' float-right buttonPR back191 colorF' >人数已满</button>
@@ -52,11 +52,11 @@
         <view class='overflow-hidden padding3030 positionR'>
           <view class='float-left text-left'>
             <view class='font-wei500 font-size14'>标题内容标题</view>
-            <view class='font-size12 colorFFF'>发布时间：2019/1/23</view>
+            <view class='font-size12 colorFFF'>开课时间：2019/1/12 13:00-16:00</view>
             <view class='font-size12 colorFFF'>北京市某某街道</view>
             <view class='font-size12  font-wei500 margin-top10'>
-              活动费用
-              <text class='font-size15 font-wei500 colorReb'>￥120.0/人</text>
+              活动费用：
+              <text class='font-size15 font-wei500 colorReb'>￥120.0</text>
             </view>
           </view>
             <button class=' float-right buttonPR back191 colorF' >报名截止</button>
@@ -74,11 +74,11 @@
         <view class='overflow-hidden padding3030 positionR'>
           <view class='float-left text-left'>
             <view class='font-wei500 font-size14'>标题内容标题</view>
-            <view class='font-size12 colorFFF'>发布时间：2019/1/23</view>
+            <view class='font-size12 colorFFF'>开课时间：2019/1/12 13:00-16:00</view>
             <view class='font-size12 colorFFF'>北京市某某街道</view>
             <view class='font-size12  font-wei500 margin-top10'>
-              活动费用
-              <text class='font-size15 font-wei500 colorReb'>￥120.0/人</text>
+              活动费用：
+              <text class='font-size15 font-wei500 colorReb'>￥120.0</text>
             </view>
           </view>
 

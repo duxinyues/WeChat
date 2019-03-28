@@ -94,7 +94,7 @@
       <view class='signSuccess margin-bottom20'>
         <image src='/img/home4.png'></image>
       </view>
-      <view class='singText'>恭喜你，签到成功</view>
+      <view class='singText'>恭喜您，签到成功！</view>
     </view>
     <image src='/img/close.png' class='marking-close'></image>
   </view>

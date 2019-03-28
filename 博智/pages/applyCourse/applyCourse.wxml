@@ -2,33 +2,33 @@
 <view class='applyBody'>
   <form>
     <view class='border-solid-radius overflow-hidden height90 flex-start margin-bottom20'>
-      <view class='padding020'>姓名</view>
-      <input class='' placeholder="请输入你的姓名"/>
+      <view class='padding020'>姓名</view> |
+      <input class='' placeholder="请输入您的姓名"/>
     </view>
 
     <view class='border-solid-radius overflow-hidden height90 flex-start margin-bottom20'>
-      <view class='padding020'>电话</view>
-      <input class='' placeholder="请输入你的电话"/>
+      <view class='padding020'>电话</view> |
+      <input class='' placeholder="请输入您的电话"/>
     </view>
 
     <view class='border-solid-radius overflow-hidden height90 flex-start margin-bottom20'>
-      <view class='padding020'>公司</view>
-      <input class='' placeholder="请输入你的公司名称"/>
+      <view class='padding020'>公司</view> |
+      <input class='' placeholder="请输入您的公司名称"/>
     </view>
 
     <view class='border-solid-radius overflow-hidden height90 flex-start margin-bottom20'>
-      <view class='padding020'>职位</view>
-      <input class='' placeholder="请输入你的职位"/>
+      <view class='padding020'>职位</view> |
+      <input class='' placeholder="请输入您的职位"/>
     </view>
 
     <view class='border-solid-radius overflow-hidden height90 flex-start margin-bottom20'>
-      <view class='padding020'>公司职位</view>
-      <input class='' placeholder="请输入你的职位"/>
+      <view class='padding020'>公司地址</view> |
+      <input class='' placeholder="请输入您的公司地址"/>
     </view>
 
     <view class='border-solid-radius overflow-hidden height90 flex-start margin-bottom20'>
-      <view class='padding020'>职位</view>
-      <input class='' placeholder="请输入你的职位"/>
+      <view class='padding020'>参与人数</view> |
+      <input class='' placeholder="请选择参与人数"/>
     </view>
 
     <view class='flex-between'>

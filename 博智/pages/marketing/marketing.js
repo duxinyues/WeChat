@@ -28,7 +28,7 @@ Page({
   },
   clickMarketingContent:function(){
     wx.navigateTo({
-      url: '/pages/marketingContent/marketingContent',
+      url: '/pages/marketingApply/marketingApply',
     })
   },
 

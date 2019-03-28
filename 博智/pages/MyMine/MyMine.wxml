@@ -5,6 +5,9 @@
         <view  class="user-pho">
           <open-data type='userAvatarUrl'></open-data>
         </view>
+        <view class="user-label">
+          <image src='/img/V.png'></image>
+        </view>
     </view>
     <view class='user-name flex-vertical font-size14'>
       <view class='userName autonym'>{{user_name}}</view>
@@ -67,14 +70,15 @@
 <view class='margin2 flex-center myFont'>
   <view class='width10 flex-center'><image src='/img/MyMine9.png' class='MyMine2'></image></view>
   <navigator url="/pages/share/share"class="width90 flex-between border-bottom">
-    <text class='margin20'>我的分享</text>
+  <view class="margin20"><text class=''>我的分享</text><image src="/img/state.png"></image></view>
+   
     <image src="/img/fangxiang.png" class='skip-small'></image>
   </navigator>
 </view>
 <view class='margin2 flex-center myFont'>
   <view class='width10 flex-center'><image src='/img/MyMine10.png' class='MyMine2'></image></view>
   <navigator url="/pages/examine/examine"class="width90 flex-between border-bottom">
-    <text class='margin20'>订单审批</text>
+    <view class="margin20"><text class=''>订单审批</text><image src="/img/state.png"></image></view>
     <image src="/img/fangxiang.png" class='skip-small'></image>
   </navigator>
 </view>

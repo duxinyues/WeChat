@@ -2,35 +2,43 @@
 <view class='applyBody'>
   <form>
     <view class='border-solid-radius overflow-hidden height90 flex-start margin-bottom20'>
-      <view class='padding020'>姓名</view>
-      <input class='' placeholder="请输入你的姓名"/>
+      <view class='padding020'>姓名</view> |
+      <input class='' placeholder="请输入您的姓名"/>
     </view>
 
     <view class='border-solid-radius overflow-hidden height90 flex-start margin-bottom20'>
-      <view class='padding020'>电话</view>
-      <input class='' placeholder="请输入你的电话"/>
+      <view class='padding020'>电话</view> |
+      <input class='' placeholder="请输入您的电话"/>
     </view>
 
     <view class='border-solid-radius overflow-hidden height90 flex-start margin-bottom20'>
-      <view class='padding020'>公司</view>
-      <input class='' placeholder="请输入你的公司名称"/>
+      <view class='padding020'>公司</view> |
+      <input class='' placeholder="请输入您的公司名称"/>
     </view>
 
     <view class='border-solid-radius overflow-hidden height90 flex-start margin-bottom20'>
-      <view class='padding020'>职位</view>
-      <input class='' placeholder="请输入你的职位"/>
+      <view class='padding020'>职位</view> |
+      <input class='' placeholder="请输入您的职位"/>
     </view>
 
     <view class='border-solid-radius overflow-hidden height90 flex-start margin-bottom20'>
-      <view class='padding020'>公司职位</view>
-      <input class='' placeholder="请输入你的职位"/>
+      <view class='padding020'>公司地址</view> |
+      <input class='' placeholder="请输入您的公司地址"/>
     </view>
 
     <view class='border-solid-radius overflow-hidden height90 flex-start margin-bottom20'>
-      <view class='padding020'>职位</view>
-      <input class='' placeholder="请输入你的职位"/>
+      <view class='padding020 part'>参与人数</view> |
+      <!-- <input class='' placeholder="请选择参与人数"/> -->
+      <view class='list-msg2' bindtap='bindShowMsg'>
+          <input class='' placeholder="请选择参与人数" value="{{tihuoWay}}"/>
+          <image style='height:40rpx;width:40rpx;' src='/img/plus-select-down.png'></image>
+      </view>
     </view>
-
+    <view class="select_box" wx:if="{{select}}">
+        <view class="select_one" bindtap="mySelect" data-name="1人">1人</view>
+        <view class="select_one" bindtap="mySelect" data-name="2-5人">2-5人</view>
+        <view class="select_one" bindtap="mySelect" data-name="6-10人">6-10人</view>
+    </view>
     <view class='flex-between'>
       <view class='font-wei'>费用金额</view>
       <view class='colorReb font-wei'>￥120.0</view>
@@ -42,7 +50,7 @@
         </label>
       </radio-group>
     </view>
-    <button class='backC colorF margin-top20' bindtap='clickSubmit'>立即报名</button>
+    <button class='backC colorF margin-top20 sub1' bindtap='clickSubmit'>立即报名</button>
   </form>
 </view>
 
@@ -58,7 +66,7 @@
       </view> 
     </view>
       <view  class='font-size14 font-wei  margin-bottom20'>
-        我报了下面的课程，请hr通过审批
+        我报名了下面的课程，请hr通过审批
       </view>
       <view class=' back border-solid-radius overflow-hidden margin-bottom20'>
         <view class='height280'>

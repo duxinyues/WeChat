@@ -4,30 +4,33 @@
     <image src='/img/trip.png' class='tripImage'></image>
   </view>
   <form class='font-size16'>
-    <view class='inputStyle flex-start margin-top50 height88'>
-      <view class='padding020 inputStyleSon'>姓名</view>
-      <input class='' placeholder="请输入您的姓名"/>
-    </view>
+        <view class='inputStyle flex-start margin-top50 height88'>
+          <view class='padding020'>姓名</view> |
+          <input class='' placeholder="请输入您的姓名"/>
+        </view>
         <view class='inputStyle flex-start margin-top20 height88'>
-      <view class='padding020 inputStyleSon'>电话</view>
-      <input class='' placeholder="请输入您的电话"/>
-    </view>
+          <view class='padding020'>电话</view> |
+          <input class='' placeholder="请输入您的电话"/>
+        </view>
         <view class='inputStyle flex-start margin-top20 height88'>
-      <view class='padding020 inputStyleSon'>到达目的地的方式</view>
-      <input class='' placeholder="选择到达方式"/>
-    </view>
+          <view class='padding020'>到达目的地的方式</view> |
+          <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+              <input class='picker' placeholder="选择到达方式" value='{{array[index]}}'/>
+          </picker>
+          <image src="/img/fangxiang.png" class="jiantou"></image>
+        </view>
         <view class='inputStyle flex-start margin-top20 height88'>
-      <view class='padding020 inputStyleSon'>到达目的地的时间</view>
-      <input class='' placeholder="请选择到达时间"/>
-    </view>
+          <view class='padding020 '>到达目的地的时间</view> |
+          <input class='' type='time' placeholder="请选择到达时间"/>
+        </view>
         <view class='inputStyle flex-start margin-top20 height88'>
-      <view class='padding020 inputStyleSon'>是否预订酒店</view>
-      <input class='' placeholder="请选择是否预订酒店"/>
-    </view>
+          <view class='padding020 '>是否预订酒店</view> |
+          <input class='' placeholder="请选择是否预订酒店"/>
+        </view>
         <view class='inputStyle flex-start margin-top20 height88'>
-      <view class='padding020 inputStyleSon'>离开时间</view>
-      <input class='' placeholder="请选择离开时间"/>
-    </view>
+          <view class='padding020'>离开时间</view> |
+          <input class='' placeholder="请选择离开时间"/>
+        </view>
     <button class='backC colorF margin-top80' bindtap='clickPayment'>提交行程</button>
   </form>
 </view>

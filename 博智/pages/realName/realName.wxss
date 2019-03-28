@@ -4,3 +4,15 @@
 page{
   background-color: #F3F3F3;
 }
+.left-info{
+  font-weight: 600;
+}
+.jiantou{
+  width: 17rpx;
+  height: 32rpx;
+  margin-left: 15rpx;
+  position: relative;
+  top: 6rpx;
+}
+.vt{text-decoration: underline;}
+.backC{font-weight: 600;}

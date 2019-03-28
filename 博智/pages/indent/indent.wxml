@@ -14,14 +14,14 @@
           <view class='font-size12 colorBlue'>待付款</view>
         </view>
 
-        <view class='backF5 padding2020 flex-start'  bindtap='clickOrder'>
+        <view class='backF5  flex-start'  bindtap='clickOrder'>
           <view class='width333 height120'>
             <image src='/img/image22.png'></image>
           </view>
           <view class='padding2020 width666 text-left'>
             <view class='font-size14 font-wei'>课程标题内容</view>
             <view class='font-size14'>上海某某路口</view>
-            <view class='font-size14 colorFFF'>发布时间：2019/1/12</view>
+            <view class='font-size14 colorFFF'>2018/12/12  18:00-19:00</view>
           </view>
         </view>
 
@@ -53,7 +53,7 @@
           <view class='font-size12 colorBlue'>待付款</view>
         </view>
 
-        <view class='backF5 padding2020 flex-start' bindtap='clickOrder'>
+        <view class='backF5  flex-start' bindtap='clickOrder'>
           <view class='width333 height120'>
             <image src='/img/image22.png'></image>
           </view>
@@ -92,7 +92,7 @@
             <view class='font-size12 colorBlue'>未开始</view>
           </view>
 
-          <view class='backF5 padding2020 flex-start' bindtap='clickOrder'>
+          <view class='backF5  flex-start' bindtap='clickOrder'>
             <view class='width333 height120'>
               <image src='/img/image22.png'></image>
             </view>
@@ -128,7 +128,7 @@
             <view class='font-size12 colorBlue'>未开始</view>
           </view>
 
-          <view class='backF5 padding2020 flex-start' bindtap='clickOrder'>
+          <view class='backF5  flex-start' bindtap='clickOrder'>
             <view class='width333 height120'>
               <image src='/img/image22.png'></image>
             </view>
@@ -168,7 +168,7 @@
           <view class='font-size12 colorBlue'>已完成</view>
         </view>
 
-        <view class='backF5 padding2020 flex-start'>
+        <view class='backF5  flex-start'>
           <view class='width333 height120'>
             <image src='/img/image22.png'></image>
           </view>

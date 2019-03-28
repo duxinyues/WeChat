@@ -1,6 +1,6 @@
 /* pages/course/course.wxss */
 swiper{
-  height: 200rpx;
+  height: 315rpx;
   margin-bottom: 30rpx;
 }
 .course-swiper{
@@ -39,3 +39,5 @@ swiper{
   height: 220rpx;
 }
 @import '../templates/courses.wxss';
+
+.time{padding-left: 8rpx;}

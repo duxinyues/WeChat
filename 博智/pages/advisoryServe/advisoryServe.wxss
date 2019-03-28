@@ -23,3 +23,4 @@ page{
   border-radius:6px;
   color: #fff;
 }
+.flex-center{text-align: center;}
