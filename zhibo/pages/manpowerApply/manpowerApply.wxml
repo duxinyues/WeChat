@@ -28,7 +28,6 @@
 
     <view class='inputStyle flex-start margin-bottom20'>
       <view class='padding020 part'>参与人数</view> |
-      <!-- <input class='' placeholder="请选择参与人数"/> -->
       <view class='list-msg2' bindtap='bindShowMsg'>
           <input class='' placeholder="请选择参与人数" value="{{tihuoWay}}"/>
           <image style='height:40rpx;width:40rpx;' src='/img/plus-select-down.png'></image>
