@@ -4,3 +4,18 @@
 page{
   background-color: #F3F3F3;
 }
+.share-state{
+  width: 30rpx;
+  height: 34rpx;
+}
+.result-text .font-size14{
+  padding-top: 10rpx;
+}
+.share-btn{
+  width: 160rpx;
+  height: 60rpx;
+  font-size: 28rpx;
+  border-radius: 6rpx;
+  line-height: 60rpx;
+  text-align: center;
+}

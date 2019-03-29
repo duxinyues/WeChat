@@ -1,71 +1,59 @@
-// pages/indent/indent.js
-
+// pages/trip/trip.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    currentData: 0,
+    array: ['飞机', '高铁', '火车', '汽车'],
+    date: '',
+    hotel: ['标准间', '豪华间', '豪华间'],
+    index:0,
+    key:0,
   },
-  //获取当前滑块的index
-  bindchange: function (e) {
-    const that = this;
-    that.setData({
-      currentData: e.detail.current
-    })
-  },
-  //点击切换，滑块index赋值
-  checkCurrent: function (e) {
-    const that = this;
 
-    if (that.data.currentData === e.target.dataset.current) {
-      return false;
-    } else {
-
-      that.setData({
-        currentData: e.target.dataset.current
-      })
-    }
-  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
 
   },
-  clickOrder:function(){
-    wx.navigateTo({
-      url: '/pages/orderCentent/orderCentent',
-    })
-  },
-  cancelOrder:function(){
+  clickPayment: function () {
+   // wx.navigateTo({
+      //url: '/pages/payment/payment',
+   // })
     wx.showToast({
 
-      title: '取消成功',
+      title: '成功',
 
       icon: 'success',
 
-      duration: 2000
+      duration: 2000//持续的时间
 
     })
   },
-  clickTrip:function(){
-    wx.navigateTo({
-      url: '/pages/trip/trip',
+  bindPickerChange: function (e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      index: e.detail.value
     })
   },
-  clickIndentTrip: function () {
-   wx.navigateTo({
-      url: '/pages/tripChange/tripChange',
+  bindhotelChange:function(e){
+    this.setData({
+      index: e.detail.value
     })
   },
-  clickPayment:function(){
-    wx.navigateTo({
-      url: '/pages/payment/payment',
+  bindDateChange: function (e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      date: e.detail.value
     })
   },
-
+  tel: function () {
+    wx.makePhoneCall({
+      phoneNumber: '158XXXXXXXX',
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

@@ -28,14 +28,14 @@
       </view>
 
       <view class='flex-between margin-bottom20'>
-        <view class='flex-start'>
-          <view class='width-40 height50'>
+        <view class='flex-start result-text'>
+          <view class='share-state'>
             <image src='/img/tixing.png'></image>
           </view>
-          <view class='font-size16'>一人拒绝</view>
+          <view class='font-size14 '>一人拒绝</view>
         </view>
         <view>
-          <button class='backC colorF font-size18 padding2020' bindtap='shareContent'>继续分享</button>
+          <view class='backC colorF share-btn' bindtap='shareContent'>继续分享</view>
         </view>
       </view>
     </view>
@@ -71,7 +71,7 @@
       <view class='flex-between margin-bottom20'>
         <view class=''></view>
         <view>
-          <button class='backC colorF font-size18 padding2020'>等待开课</button>
+          <view class='backC colorF share-btn'>等待开课</view>
         </view>
       </view>
     </view>

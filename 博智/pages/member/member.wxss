@@ -8,3 +8,12 @@ page{
   position: relative;
   top: 60rpx;
 }
+.title-con{font-size: 30rpx;}
+.colorBlue{font-size: 30rpx;}
+.text-align:nth-child(2){font-size: 24rpx;}
+.margin-top20{margin-top: 40rpx;}
+.sy-title{font-size: 36rpx;padding-top: 51rpx;}
+.right-text{position: relative;height: 180rpx;}
+.ac-tit{position: absolute;top: 10rpx;}
+.ac-time{position: absolute;top: 65rpx;}
+.ac-num{position: absolute;bottom: 8rpx;}

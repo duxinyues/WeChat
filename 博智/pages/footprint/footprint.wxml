@@ -12,8 +12,11 @@
     </view>
   </view>
   <view class='school-text font-size14 padding020 margin-top20'>本次嘉宾涵盖行业学者、实战专家、名企高管等等等省略省略</view>
+  <text class="open-all">展开全部</text>
   <view class='school-image padding2020'>
-    <image src='/img/test1.png' class='image'></image>
+    <image src='/img/ex1.png' class='image'></image>
+    <image src='/img/ex2.png' class='image'></image>
+    <image src='/img/ex3.png' class='image'></image>
   </view>
   <view class='school-app flex-space-around margin-LR border-top padding30 font-size14 colorFFF '>
     <view class='width333 font-center border-right flex-center'>
@@ -29,7 +32,7 @@
       <view>200</view>
     </view>
     <view class='width333 font-center  flex-center'>
-      <view class='width-40 height40'>
+      <view class='width-40 height40 MyMine15'>
         <image src='/img/MyMine15.png'></image>
       </view>
       <view>200</view>

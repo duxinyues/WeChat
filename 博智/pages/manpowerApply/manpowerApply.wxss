@@ -66,33 +66,6 @@ radio .wx-radio-input.wx-radio-input-checked::before{
 .part{
   width: 20%;
 }
-
-.select_box {
-    background-color: #eee;
-    padding: 0 10rpx;
-    width: 65%;
-    position: absolute;
-    top: 715rpx;
-    right: 60rpx;
-    z-index: 1;
-    overflow: hidden;
-    animation: myfirst 0.5s;
-}
- 
-@keyframes myfirst {
-    from {
-        height: 0rpx;
-    }
- 
-    to {
-        height: 210rpx;
-    }
-}
- 
-.select_one {
-    text-align: center;
-    font-size: 30rpx;
-    height: 60rpx;
-    line-height: 60rpx;
-    
+picker{
+  width: 77%;
 }

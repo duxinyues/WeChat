@@ -8,18 +8,18 @@
   </view>
 </view>
 <view class='padding2020'>
-  <button class='back flex-between margin-bottom20' open-type="contact">
+  <view class='back tell flex-between padding2020' bindtap="contact">
     <view class='waiterTitle2 flex-start'>
       <image src='/img/serverPhone.png' class='waiterImg margin-right20'></image>
       <view>客服联系电话</view>
     </view>
-    <view>></view>
-  </button>
-  <view class='back flex-between padding2020' bindtap='clickOpinion2'>
+    <view><image src='/img/fangxiang.png' class='jiantou'></image></view>
+  </view>
+  <view class='back online flex-between padding2020' bindtap='clickOpinion2'>
     <view class='waiterTitle2 flex-start'>
       <image src='/img/serverOnline.png' class='waiterImg margin-right20'></image>
       <view>客服在线留言</view>
     </view>
-    <view>></view>
+    <view><image src='/img/fangxiang.png' class='jiantou'></image></view>
   </view>
 </view>

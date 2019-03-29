@@ -28,18 +28,11 @@
 
     <view class='inputStyle flex-start margin-bottom20'>
       <view class='padding020 part'>参与人数</view> |
-      <!-- <input class='' placeholder="请选择参与人数"/> -->
-      <view class='list-msg2' bindtap='bindShowMsg'>
-          <input class='' placeholder="请选择参与人数" value="{{tihuoWay}}"/>
-          <image style='height:40rpx;width:40rpx;' src='/img/plus-select-down.png'></image>
-      </view>
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <input class="picker" placeholder="请选择参与人数" value="{{array[index]}}"/>
+      </picker>
+      <image style='height:40rpx;width:40rpx;' src='/img/plus-select-down.png'></image>
     </view>
-    <view class="select_box" wx:if="{{select}}">
-        <view class="select_one" bindtap="mySelect" data-name="1人">1人</view>
-        <view class="select_one" bindtap="mySelect" data-name="2-5人">2-5人</view>
-        <view class="select_one" bindtap="mySelect" data-name="6-10人">6-10人</view>
-    </view>
-
     <view class='flex-between'>
       <view class='font-wei500 font-size18 font-b'>费用金额</view>
       <view class='colorReb font-wei500 font-size24'>￥120.0</view>

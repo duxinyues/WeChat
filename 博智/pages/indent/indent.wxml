@@ -168,7 +168,7 @@
           <view class='font-size12 colorBlue'>已完成</view>
         </view>
 
-        <view class='backF5  flex-start'>
+        <view class='backF5  flex-start' bindtap='clickOrder'>
           <view class='width333 height120'>
             <image src='/img/image22.png'></image>
           </view>

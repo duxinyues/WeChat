@@ -9,6 +9,8 @@ Page({
     showMasking2:false,
     showRadio:1,
     select: false,
+    array: ['1人', '2-5人', '6-10人', '更多'],
+    index: 0,
     tihuoWay: '参与人数',
     items: [
       { name: 'personage', value: '个人用户', checked: 'true' },
@@ -57,11 +59,10 @@ Page({
       select: !this.data.select
     })
   },
-  mySelect(e) {
-    var name = e.currentTarget.dataset.name
+  bindPickerChange: function (e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
     this.setData({
-      tihuoWay: name,
-      select: false
+      index: e.detail.value
     })
   },
   /**

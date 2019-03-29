@@ -27,3 +27,12 @@ page{
   font-weight:500;
   line-height:21px;
 }
+
+.jiantou{
+  width: 17rpx;
+  height: 32rpx;
+}
+.flex-between{display: flex;justify-content: space-between;}
+.tell{margin-top: 31rpx;}
+.online{margin-top: 21rpx;}
+.waiterTitle2{font-size: 30rpx;font-weight: 600;}

@@ -4,6 +4,13 @@
 page{
   background-color: #F3F3F3;
 }
+.school-head{padding-top: 20rpx;}
 .school-image{
-  height: 320rpx;
+ display: flex;justify-content: space-between;
 }
+
+.colorFFF{font-size: 24rpx;}
+.school-text{font-size: 28rpx;color: #333333}
+.open-all{color: #3366FF;font-size: 28rpx;padding-left: 18rpx;}
+.image{width: 206rpx;height: 206rpx;}
+.MyMine15{width: 28rpx;height: 30rpx;}
