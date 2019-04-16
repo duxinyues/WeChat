@@ -1,0 +1,29 @@
+<!--pages/createGroup/createGroup.wxml-->
+<view class="container">
+  <view class="create-group-name create">
+    <view class="group-name font-12 color-999"> 群名称</view>
+    <input class='font-14 text' value="天鹅湾花园"></input>
+  </view>
+
+  <view class="join-type create">
+    <view class="join-title font-12  color-999">入群方式</view>
+    <view class='join-text'>
+      <text class='font-14 text'>关联指定微信群</text>
+      <image src='../../images/arrow-right.png' class='arrow-right'></image>
+    </view>
+
+    <view class="join-tips font-12 color-999">
+      选择后，只有关联指定微信群内成员才能加入该群
+    </view>
+
+    <view class='official'>
+      <text class='font-14 color-33 text'>是否官方群</text>
+      
+    </view>
+    <view class='audit'>
+      <text class='font-14 color-33 text'>加入群时是否需要审核</text>
+    </view>
+
+    <view class='create-btn font-14'>确定</view>
+  </view>
+</view>

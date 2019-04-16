@@ -1,0 +1,7 @@
+/* pages/createGroup/createGroup.wxss */
+@import "../public/public.wxss";
+.container{padding-left: 20rpx;}
+.arrow-right{width: 10rpx;height: 16rpx;}
+
+.create{margin-top: 35rpx;}
+.text{display: block;width: 100%;background: #fff;}

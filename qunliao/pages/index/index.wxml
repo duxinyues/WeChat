@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="group">
+    <view class='left'>
+      <image class="group-headImg" src='../../images/group-headImg.png'></image>
+      <text class='new-num color-fff'>99+</text>
+    </view>
+
+    <view class="right">
+      <view class="group-title">
+        <view class="tit">
+          <text class='tit-text color-333'>天鹅湾花园</text>
+          <text class="num color-666">一群</text>
+        </view>
+        <text class="time color-999">21:08</text>
+      </view>
+      <view class="group-new color-999">
+        <text class="new-user">小冬瓜</text>：
+        <text class="new-text">听说下个月有优惠，是不是真的啊？</text>
+      </view>
+    </view>
+  </view>
+  <view class="create-group">
+    <navigator url="/pages/createGroup/createGroup" hover-class="navigator-hover">
+    <image src="../../images/create-group.png"></image>
+    <text class="create-text color-fff">创建群</text>
+    </navigator>
+    
+  </view>
+</view>
