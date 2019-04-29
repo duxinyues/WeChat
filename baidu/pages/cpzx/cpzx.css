@@ -1,0 +1,60 @@
+.bodyd{
+    width:100%;
+    height:7350rpx;
+    padding: 0rpx;
+    margin:0rpx; 
+    background: url(http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/cpzxbanner.png) no-repeat;
+    background-size: 100% 7183rpx;  
+    overflow: hidden;
+    position: relative;
+}
+
+.swiper{
+    position: absolute;
+    bottom: 24.33333333333333vw;
+    height:530rpx;
+}
+.swanimage{
+    width:100%;
+    height:64.66666666666667vw
+    
+}
+.swanimages {
+    width:100%;
+    height:530rpx;
+}
+.te{
+    width: 100rpx;
+    height: 100rpx;
+    background: red;
+    font-size: 30rpx;
+    color: yellow;
+    text-align: center;
+}
+.v{
+    width: 670rpx;
+    height: 333rpx;
+    border-radius: 10rpx;
+    margin: 335rpx 4.85vw 0;
+    overflow: hidden;
+}
+.fiex_d{
+    position: fixed;
+    width: 100%;
+    height: 18.333333333333332vw;
+    background:#3da9fe;
+    bottom: 0;
+    color: #fff;
+    font-size:3vw;
+    display: flex;
+    text-align: center;
+    
+}
+.fiex_d text{
+    display: block;
+}
+.index_{
+    width:12.333333333333332vw;
+    height: 160rpx;
+    margin: 1vw 3vw;
+}

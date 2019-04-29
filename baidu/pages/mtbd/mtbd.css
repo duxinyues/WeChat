@@ -1,0 +1,77 @@
+ 
+ .mtbd{
+    margin: 0;
+    padding: 0;
+ }
+ .bodd{
+     width: 100%;
+     height: 1653rpx;
+     background: url(http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/head.png) no-repeat;
+     background-size: 100% 1653rpx;
+     overflow: hidden;
+ }
+
+ .wz1{
+     width: 100%;
+     height: 180rpx;
+     /* background: yellow; */
+     margin-top:32vw;
+ }
+.wz2{
+     width: 100%;
+     height: 180rpx;
+     /* background: blue; */
+     margin-top:8vw;
+}
+.wz3{
+     width: 100%;
+     height: 180rpx;
+     /* background: pink; */
+     margin-top:8vw;
+}
+.wz4{
+     width: 100%;
+     height: 180rpx;
+     /* background: #000; */
+     margin-top:8vw;
+}
+.wz5{
+     width: 100%;
+     height: 180rpx;
+     /* background: red; */
+     margin-top:8vw;
+}
+.wz6{
+     width: 100%;
+     height: 180rpx;
+     /* background: blueviolet; */
+     margin-top:8vw;
+}
+
+.footer{
+     width: 100%;
+     height: 106.26666666666667vw;
+     background: url(http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/footer.png) no-repeat;
+     background-size: 100% 647rpx;
+}
+
+.fiex_d{
+    position: fixed;
+    width: 100%;
+    height: 18.333333333333332vw;
+    background:#3da9fe;
+    bottom: 0;
+    color: #fff;
+    font-size:3vw;
+    display: flex;
+    text-align: center;
+    
+}
+.fiex_d text{
+    display: block;
+}
+.index_{
+    width:12.333333333333332vw;
+    height: 160rpx;
+    margin: 1vw 3vw;
+}

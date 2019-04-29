@@ -1,0 +1,21 @@
+.controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.play, .pause, .time {
+    flex: 1;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+.pause, .time {
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+cover-image {
+    width: 100%;
+    height: 100%;
+}

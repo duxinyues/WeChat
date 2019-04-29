@@ -1,0 +1,33 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/map/map",
+        "pages/banner1/banner1",        
+        "pages/pinl/pinl",
+        "pages/list/yyz/yyz",  
+        "pages/list/sxza/sxza",  
+        "pages/list/smz/smz",          
+        "pages/list/sjsr/sjsr",   
+        "pages/list/qpz/qpz",         
+        "pages/list/kjz/kjz", 
+        "pages/list/jsfl/jsfl", 
+        "pages/list/jlz/jlz",   
+        "pages/jszc/jszc",
+        "pages/cpzx/cpzx",
+        "pages/mtbd/mtbd",
+        "pages/shgy/shgy",
+        "pages/mtbd/mtbd",
+        "pages/mtbd/wz1/wz1",
+        "pages/mtbd/wz2/wz2",
+        "pages/mtbd/wz3/wz3",
+        "pages/mtbd/wz4/wz4",
+        "pages/mtbd/wz5/wz5",
+        "pages/mtbd/wz6/wz6"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "智能小程序",
+        "backgroundTextStyle": "light"
+    }
+}

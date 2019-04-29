@@ -1,7 +1,14 @@
 /* pages/createGroup/createGroup.wxss */
 @import "../public/public.wxss";
-.container{padding-left: 20rpx;}
-.arrow-right{width: 10rpx;height: 16rpx;}
 
 .create{margin-top: 35rpx;}
-.text{display: block;width: 100%;background: #fff;}
+
+.text{display: block;width: 100%;background: #fff;position: relative;}
+.pl{padding: 10rpx 20rpx;display: block;}
+.join-text{display: flex;justify-content: space-between;}
+.arrow-right{width: 12rpx;height: 22rpx;position: absolute;right: 15rpx;top: 15rpx;}
+.join-tips{padding: 20rpx 20rpx 20rpx 20rpx;}
+.official{display: flex;justify-content:space-between; }
+.audit{margin-top: 10rpx; display: flex;justify-content: space-between;}
+
+.create-btn{width: 60%;height: 50rpx;background: rgba(215,215,215,1);text-align: center;margin: 0 auto;margin-top: 150rpx;line-height: 50rpx;border-radius: 5px;}

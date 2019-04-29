@@ -1,0 +1,46 @@
+<view class="bodyd">
+  
+  <!-- 轮播 -->
+  <swiper indicator-dots="true"
+    autoplay="true" interval="3000" duration="500" class="swiper">
+    <block s-for="imgUrl in images textt in text ">
+        <swiper-item>
+            <image src="{{imgUrl}}" class="swanimage" />
+        </swiper-item>
+    </block>
+  </swiper> 
+
+  <!-- 底部固定 -->
+  <view class="fiex_d">
+      <view class="index_" bindtap="index_">
+        <image src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/fixed1.png" style="width:11vw;height:11vw;"></image>
+        <text>
+          首页
+        </text>
+      </view>      
+       <view class="index_" bindtap="phone">
+        <image src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/fixed2.png" style="width:11vw;height:11vw;"></image>
+        <text>
+          在线咨询
+        </text>
+      </view>
+      
+      <view style="width:24vw;height:24vw;" bindtap="phone">
+        <image src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/fixed3.png"  style="width:24vw;height:24vw;margin-top:-7vw;"></image>
+      </view>
+     
+      <view class="index_" bindtap="ly">
+        <image src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/fixed4.png" style="width:11vw;height:11vw;"></image>
+        <text>
+          康复留言
+        </text>
+      </view>
+      
+      <view class="index_" bindtap="map">
+        <image src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/fixed5.png" style="width:11vw;height:11vw;"></image>
+        <text>
+          乘车路线
+        </text>
+      </view> 
+  </view>
+</view>

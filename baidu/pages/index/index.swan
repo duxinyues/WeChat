@@ -1,0 +1,126 @@
+<!-- index.swan -->
+<view class="container">
+  <!-- 网站LOGO -->
+  <view class="logo">
+    <image src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/logo.png"></image>
+  </view>
+  <view class="show" >dfhgdfkh</view>
+  <!-- 轮播 -->
+  <swiper indicator-dots="true"
+    autoplay="true" interval="3000" duration="500">
+    <block s-for="imgUrl in images">
+        <swiper-item>
+            <image bindtap="banner1" src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/banner1.png" class="swanimage" />
+        </swiper-item>
+        <swiper-item>
+            <image src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/banner2.png" class="swanimage" />
+        </swiper-item>
+    </block>
+  </swiper>
+
+  <!-- list -->
+  <view class="add">
+    <view class="add_8" style="margin-top:0.7vw">
+      <image src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/list_0.png" bindtap="mtbd"></image>
+      <image src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/list_2.png" bindtap="cpzx"></image>
+    </view>
+    <view class="add_8">
+      <image src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/list_3.png" bindtap="jszc"></image>
+      <image src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/list_4.png" bindtap="shgy"></image>
+    </view>
+  </view>
+
+  <view class="a">
+     <view class="smz" bindtap="smz"></view>
+     <view class="yyz" bindtap="yyz"></view>
+     <view class="jlz" bindtap="jlz"></view>
+     <view class="sxza" bindtap="sxza"></view>
+     <view class="kjz" bindtap="kjz"></view>
+     <view class="qpz" bindtap="qpz"></view>
+     <view class="jsfl" bindtap="jsfl"></view>
+     <view class="sjsr" bindtap="sjsr"></view>
+     
+  </view>
+
+  <view class="nav_1" bindtap="phone">
+  </view>
+
+  <view class="nav_2" bindtap="phone">
+  </view>
+
+  <view class="nav_3" bindtap="phone">
+  </view>
+  
+  <view class="nav_4" bindtap="phone"> 
+  </view>
+
+  <view class="nav_5" bindtap="phone"> 
+  </view>
+  <view class="nav_6" bindtap="phone"> 
+  </view>
+  <view class="aa">
+     <image src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/banner2.jpg"></image>
+  </view>
+
+
+  <!-- 轮播 -->
+    <swiper indicator-dots="true"
+      autoplay="true" interval="3000" duration="500">
+      <block s-for="imgUrl in imag">
+          <swiper-item>
+              <image src="{{imgUrl}}" class="swanimages"/>
+          </swiper-item>
+      </block>
+    </swiper>
+    <view style="height:2vw"></view>
+   <!-- 轮播 -->
+  <swiper indicator-dots="true"
+    autoplay="true" interval="3000" duration="500">
+    <block s-for="imgUrl in imags">
+        <swiper-item>
+            <image src="{{imgUrl}}" class="swanimages"/>
+        </swiper-item>
+    </block>
+  </swiper>
+
+
+
+  <view class="footer"></view>
+  
+
+
+  <!-- 底部固定 -->
+  <view class="fiex_d">
+      <view class="index_" bindtap="index_">
+        <image src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/fixed1.png" style="width:11vw;height:11vw;"></image>
+        <text>
+          首页
+        </text>
+      </view>      
+       <view class="index_" bindtap="phone">
+        <image src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/fixed2.png" style="width:11vw;height:11vw;"></image>
+        <text>
+          在线咨询
+        </text>
+      </view>
+      
+      <view style="width:24vw;height:24vw;" bindtap="phone">
+        <image src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/fixed3.png"  style="width:24vw;height:24vw;margin-top:-7vw;"></image>
+      </view>
+     
+      <view class="index_" bindtap="ly">
+        <image src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/fixed4.png" style="width:11vw;height:11vw;"></image>
+        <text>
+          康复留言
+        </text>
+      </view>
+      
+      <view class="index_" bindtap="map">
+        <image src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/fixed5.png" style="width:11vw;height:11vw;"></image>
+        <text>
+          乘车路线
+        </text>
+      </view> 
+  </view>
+</view>
+

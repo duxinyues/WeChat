@@ -1,0 +1,139 @@
+<view class="bodyd">
+</view>
+<view class="phonegif" bindtap="phone"></view>
+<view class="" style="margin-bottom:5vw"></view>
+
+
+  <!-- 轮播 -->
+  <swiper indicator-dots="true"
+    autoplay="true" interval="3000" duration="500" >
+    <block s-for="imgUrl in images">
+        <swiper-item>
+            <image src="{{imgUrl}}" class="lb1" />
+        </swiper-item>
+    </block>
+  </swiper>
+
+<view class="b11"></view>
+
+<video class="v" object-fit: fill src="{{src}}" ></video>
+
+<!-- <view class="reasonp">
+据现医学研究证实精神疾病引发根源——神经递质紊乱。神经递质学说最早由诺贝尔医学奖评判医院——卡罗林斯卡医学院提出。基于此观点，美国哈佛大学医学院通过对两万余例实践验证：神经递质针对性诊疗是精神疾病治愈的关键，临床应用以来效果显著。
+</view> -->
+
+<view class="banner1_05"></view>
+<video class="v"  object-fit: fill src="{{srcvideo}}" ></video>
+<view class="banner1_07"></view>
+<view class="phonegif" bindtap="phone"></view>
+<view class="banner1_09"></view>
+
+  <!-- 轮播 -->
+  <swiper indicator-dots="true"
+    autoplay="true" interval="3000" duration="500" >
+    <block s-for="imgUrl in ima">
+        <swiper-item>
+            <image src="{{imgUrl}}" class="lb1" />
+        </swiper-item>
+    </block>
+  </swiper>
+
+<view class="banner1_11"></view>
+<view class="phonegif" bindtap="phone"></view>
+<view class="banner1_13"></view>
+<view class="phonegif" bindtap="phone"></view>
+<view class="banner1_15"></view>
+<view class="phonegif" bindtap="phone"></view>
+<view class="banner1_17"></view>
+  <!-- 轮播 -->
+  <swiper indicator-dots="true"
+    autoplay="true" interval="3000" duration="500" >
+    <block s-for="imgUrl in imas">
+        <swiper-item>
+            <image src="{{imgUrl}}" class="lb1" />
+        </swiper-item>
+    </block>
+  </swiper>
+
+<view class="dianji" bindtap="phone">
+  点击咨询，查看更多详细视频>>>
+</view>
+
+<view class="foot">安泰睿医疗及安思利普治疗仪曾被媒体平台多次报道，2015年12月在四川成都，由21世纪公益基金会主办、安泰睿医疗科技有限公司等医疗结构协办的"关爱抑郁症公益活动"，三十余家媒体通过文字、图文、视频、语音等形式进行了全面报道，以下是部分媒体在线图文报道。</view>
+<view class="xw">
+  <view class="mbt2" bindtap="xw1">【新浪网】美国健康协会代表莅临安泰睿考察交流-----------More>></view>  
+  <view class="mbt2" bindtap="xw2">【网易网】仁康医院成安思利普第十五个临床试用单位！------More>></view>  
+  <view class="mbt2" bindtap="xw3">【搜狐网】资深医学顾问加入安泰睿产品体验官--------------More>></view>  
+  <view class="mbt2" bindtap="xw4">【江苏健康】安泰睿与平安保险合作新闻发布会成功举行-------More>></view>  
+  <view class="mbt2" bindtap="xw5">【中国第一新闻】安泰睿医疗受邀参加德国杜塞尔多夫医疗展---More>></view>  
+  <view class="mbt2" bindtap="xw6">【凤凰网】安思利普携手任达华为抑郁症患者谋福利-----------More>></view>  
+</view>  
+<view class="phonegif" style="margin:5vw 0" bindtap="phone"></view>
+
+<view class="dnn05"></view>
+
+<!-- map.swan -->
+<map id="myMap"
+     style="width: 100%"
+     scale="{{scale}}"
+     longitude="{{longitude}}"
+     latitude="{{latitude}}"
+     markers="{{markers}}"
+     position="{{position}}"
+     showLocation="{{showLocation}}"
+     polyline="{{polyline}}"
+     controls="{{controls}}"
+     circles="{{circles}}"
+     bindmarkertap="onMarkertap" bindcallouttap="onCallouttap" bindcontroltap="onControltap" bindregionchange="onRegionchange" bindtap="onTap" bindupdated="onUpdated">
+</map>     
+<view class="mapdate" bindtap="phone"></view>
+<view class="dd"></view>
+ 
+<iframe style="background: #323232" src="http://6g.anslp.net/iframe/sj/11/" width="100%" height="300" frameborder="0" scrolling="no" id="biad"></iframe>
+
+<view class="banner1_21"></view>
+
+  <!-- 轮播 -->
+  <swiper indicator-dots="true"
+    autoplay="true" interval="3000" duration="500"  class="lb2">
+    <block s-for="imgUrl in imase">
+        <swiper-item bindtap="phone">
+            <image src="{{imgUrl}}" class="lb2" />
+        </swiper-item>
+    </block>
+  </swiper>
+
+  <view class="banner1_23"></view>
+  <!-- 底部固定 -->
+<view class="fiex_d">
+      <view class="index_" bindtap="index_">
+        <image src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/fixed1.png" style="width:11vw;height:11vw;"></image>
+        <text>
+          首页
+        </text>
+      </view>      
+       <view class="index_" bindtap="phone">
+        <image src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/fixed2.png" style="width:11vw;height:11vw;"></image>
+        <text>
+          在线咨询
+        </text>
+      </view>
+      
+      <view style="width:24vw;height:24vw;" bindtap="phone">
+        <image src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/fixed3.png"  style="width:24vw;height:24vw;margin-top:-7vw;"></image>
+      </view>
+     
+      <view class="index_" bindtap="ly">
+        <image src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/fixed4.png" style="width:11vw;height:11vw;"></image>
+        <text>
+          康复留言
+        </text>
+      </view>
+      
+      <view class="index_" bindtap="map">
+        <image src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/fixed5.png" style="width:11vw;height:11vw;"></image>
+        <text>
+          乘车路线
+        </text>
+      </view> 
+  </view> 

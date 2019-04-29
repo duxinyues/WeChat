@@ -1,2 +1,22 @@
 <!--pages/gw/gw.wxml-->
-<text>pages/gw/gw.wxml</text>
+<view class="container">
+  <view class="select">
+    <view class='left'>
+      <view class="area">
+        <text>区域</text>
+        <image src="../../images/arrow-bottom.png"></image>
+      </view>
+      <view class="area">
+        <text>楼盘</text>
+        <image src="../../images/arrow-bottom.png"></image>
+      </view>
+      <view class="area">
+        <text>热度</text>
+        <image src="../../images/arrow-bottom.png"></image>
+      </view>
+    </view>
+    <view class="right">
+      筛选
+    </view>
+  </view>
+</view>
