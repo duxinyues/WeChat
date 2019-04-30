@@ -17,11 +17,24 @@ Page({
         ],
         show:false
     },
-  function(){
-    setTimeout(()=>{
-        console.log("5555")
-    },1000)
-  },
+   timer:function(){
+     
+   },
+    onLoad() {
+      var that = this;
+      setTimeout(function () {
+       that.setData({
+                show:true
+            });
+      }, 5000);
+    },
+    hide:function(){
+      var that = this;
+      that.setData({
+        show:false
+      })
+      console.log(22222)
+    },
   phone: function (e) {
     swan.makePhoneCall({
       phoneNumber: '4009797666' //电话号码

@@ -4,7 +4,6 @@
   <view class="logo">
     <image src="http://cs.yy411.net/baiduXiaoChengXuZiYuanBao/images/logo.png"></image>
   </view>
-  <view class="show" >dfhgdfkh</view>
   <!-- 轮播 -->
   <swiper indicator-dots="true"
     autoplay="true" interval="3000" duration="500">
@@ -124,3 +123,7 @@
   </view>
 </view>
 
+<!-- 自定义弹窗 -->
+<view class="tc" s-if="{{show}}">
+  <view class="center" bindtap="hide"></view>
+</view>
