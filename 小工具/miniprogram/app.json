@@ -18,8 +18,8 @@
       "iconPath": "images/music.png",
       "selectedIconPath": "images/musicSelected.png"
     },{
-      "pagePath": "pages/music/index",
-      "text": "小音乐",
+      "pagePath": "pages/reader/index",
+      "text": "读心读书",
       "iconPath": "images/reader.png",
       "selectedIconPath": "images/readerSelected.png"
     }]

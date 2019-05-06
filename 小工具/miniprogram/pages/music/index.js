@@ -1,18 +1,29 @@
 // miniprogram/pages/music/index.js
+const order = ['red', 'yellow', 'blue', 'green', 'red']
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
+ 
   onLoad: function (options) {
-
+    wx.request({
+      url: 'https://c.y.qq.com/musichall/fcgi-bin/fcg_yqqhomepagerecommend.fcg',
+      data: {},
+      method: 'GET', // OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
+      // header: {}, // 设置请求的 header
+      success: function(res){
+        console.log(res)
+      },
+      fail: function() {
+        // fail
+      },
+      complete: function() {
+        // complete
+      }
+    })
   },
 
   /**
