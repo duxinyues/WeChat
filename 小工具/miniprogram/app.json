@@ -1,7 +1,6 @@
 {
   "pages": [
     "pages/music/index",
-    "pages/calculator/index",
     "pages/reader/index"
   ],
   "window": {
