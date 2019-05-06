@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/music/index",
+    "pages/calculator/index",
+    "pages/reader/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#1afa29",
+    "list": [{
+      "pagePath": "pages/music/index",
+      "text": "小音乐",
+      "iconPath": "images/music.png",
+      "selectedIconPath": "images/musicSelected.png"
+    },{
+      "pagePath": "pages/music/index",
+      "text": "小音乐",
+      "iconPath": "images/reader.png",
+      "selectedIconPath": "images/readerSelected.png"
+    }]
+  }
+}
