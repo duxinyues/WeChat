@@ -1,5 +1,0 @@
-<view class="section">
-  <view class="search-box">
-      <input type="text" class="search" />
-  </view>
-</view>
