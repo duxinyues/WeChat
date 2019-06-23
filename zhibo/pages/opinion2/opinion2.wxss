@@ -1,4 +1,0 @@
-/* pages/opinion2/opinion2.wxss */
-@import '../communal/communal.wxss';
-.border-solid-radius{width: 687rpx;height: 695rpx;border: 1px solid #D2D2D2;padding-top: 29rpx;padding-left: 30rpx;margin: 0 auto;margin-top: 34rpx;}
-.backC{width: 640rpx;height: 90rpx;margin: 0 auto;margin-top: 91rpx;}

@@ -1,5 +1,0 @@
-/* pages/schoolRedact/schoolRedact.wxss */
-@import '../communal/communal.wxss';
-page{
-  background-color: #F3F3F3
-}

@@ -1,5 +1,0 @@
-/* pages/gw/gw.wxss */
-.select{display: flex;justify-content: space-between;background: #fff;}
-.left{font-size: 14px;display: flex;}
-.left image{width: 10px;height: 6px;}
-.right{font-size: 12px;}

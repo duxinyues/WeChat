@@ -1,8 +1,0 @@
-/* pages/evaluateContent/evaluateContent.wxss */
-@import '../communal/communal.wxss';
-@import '../templates/courses.wxss';
-page{
-  background-color: #F3F3F3;
-}
-.font-wei{text-align: justify;}
-.font-size16{text-align: justify;color: #333333;}

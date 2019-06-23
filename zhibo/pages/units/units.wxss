@@ -1,8 +1,0 @@
-/* pages/units/units.wxss */
-@import '../communal/communal.wxss';
-@import '../templates/courses.wxss';
-page{
-  background-color: #F3F3F3;
-}
-.left-con{font-size: 30rpx;color: #333;font-weight: 600;}
-.jiantou{width: 17rpx;height: 32rpx;position: relative;top: 8rpx;padding-left: 10rpx;}
