@@ -1,0 +1,33 @@
+<view class="nav-bar" hover-class="none" hover-stop-propagation="false">
+    <view class="nav-wrp">
+        <navigator class=" a logo" target="" url="" hover-class="navigator-hover" open-type="navigate"></navigator>
+          <navigator class="a cell">
+            <view class="nav-icon  bili-icon-history"></view>>
+          </navigator>
+
+          <view class="a cell">
+            <view class="nav-icon bili-icon-search"></view>
+          </view>
+    </view>
+</view>
+
+<view class="flex-bar main">
+    <view class="flex-bar-in">
+        <view class="li nav-item on">
+            <navigator url="" class="a">首页</navigator>
+        </view>
+        <view class="li nav-item">
+            <navigator url="" class="a">频道</navigator>
+        </view>
+        <view class="li nav-item">
+            <navigator url="" class="a">直播</navigator>
+        </view>
+        <view class="li nav-item">
+            <navigator url="" class="a">排行</navigator>
+        </view>
+        <view class="li nav-item">
+            <navigator url="" class="a">我的</navigator>
+        </view>
+    </view>
+  </view>
+  
