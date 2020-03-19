@@ -1,0 +1,54 @@
+.container {
+  margin-top: 350rpx;
+}
+
+.myCard {
+  margin: 100rpx 20rpx 0 20rpx;
+  background: #4aae34;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 80rpx;
+}
+
+.userInfo {
+  margin: 0 20rpx;
+  box-shadow: 1px 5px 5px #414640;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20rpx 0;
+}
+
+.state {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 50rpx 0;
+}
+
+.time {
+  padding: 100rpx 0;
+}
+
+.address {
+  margin: 50rpx 20rpx;
+  color: #d4d6d3;
+  text-align: center;
+}
+
+.self {
+  background: #f9ad23; 
+}
+
+.home {
+  background: #e2762a;
+}
+
+.concentrate {
+  background: #c60c0c;
+}
+
+.hospital {
+  background: #b418bd;
+}

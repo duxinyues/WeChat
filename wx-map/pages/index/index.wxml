@@ -1,0 +1,21 @@
+<nav-bar navbar-data='{{nvabarData}}'></nav-bar>
+<map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" bindcontroltap="controltap" markers="{{markers}}" bindregionchange="regionchange" show-location enable-3D="true">
+</map>
+
+<view class="info">
+  <view class="login" bindtap="login">
+    <image src="{{userImg}}"></image>
+    <view>信息登录</view>
+  </view>
+  <view class="crad" bindtap="card">
+    <image src="{{cradImg}}"></image>
+    <view>健康卡</view>
+  </view>
+</view>
+<view class="clickCrad" bindtap="punchCard">
+  <view class="left">
+    <image class="cradImg" src="{{clickCradimg}}"></image>
+    <view>每日健康打卡</view>
+  </view>
+  <image src="{{rightimg}}" class="rightImg"></image>
+</view>

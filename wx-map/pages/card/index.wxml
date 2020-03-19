@@ -1,0 +1,67 @@
+<nav-bar navbar-data='{{nvabarData}}'></nav-bar>
+
+<view class="container">
+  <view class="myCard">
+    <view class="state">正 常</view>
+
+    <view>防控疫情，人人有责</view>
+    <view>请您继续做好个人防护</view>
+    <view class="time">03月05日 08:26:52</view>
+
+    <view>非常时期 健康第一 服从安排 共抗疫情</view>
+    <view> 咨询电话：6542123546</view>
+  </view>
+  <view class="myCard self">
+    <view class="state">自我观察</view>
+
+    <view>防控疫情，人人有责</view>
+    <view>请您继续做好个人防护</view>
+    <view class="time">03月05日 08:26:52</view>
+
+    <view>非常时期 健康第一 服从安排 共抗疫情</view>
+    <view> 咨询电话：6542123546</view>
+  </view>
+  <view class="myCard home">
+    <view class="state">居家隔离</view>
+
+    <view>防控疫情，人人有责</view>
+    <view>请您继续做好个人防护</view>
+    <view class="time">03月05日 08:26:52</view>
+
+    <view>非常时期 健康第一 服从安排 共抗疫情</view>
+    <view> 咨询电话：6542123546</view>
+  </view>
+  <view class="myCard concentrate">
+    <view class="state">集中隔离</view>
+
+    <view>防控疫情，人人有责</view>
+    <view>请您继续做好个人防护</view>
+    <view class="time">03月05日 08:26:52</view>
+
+    <view>非常时期 健康第一 服从安排 共抗疫情</view>
+    <view> 咨询电话：6542123546</view>
+  </view>
+  <view class="myCard hospital">
+    <view class="state">医院隔离</view>
+
+    <view>防控疫情，人人有责</view>
+    <view>请您继续做好个人防护</view>
+    <view class="time">03月05日 08:26:52</view>
+
+    <view>非常时期 健康第一 服从安排 共抗疫情</view>
+    <view> 咨询电话：6542123546</view>
+  </view>
+  <view class="userInfo">
+    <view class="info">
+      <view class="userAvatarUrl">
+        <open-data type="userAvatarUrl" class="userAvatarUrl"></open-data>
+      </view>
+      <view>
+        <open-data type="userNickName"></open-data>
+      </view>
+    </view>
+  </view>
+  <view class="address">居住地址：贵阳</view>
+
+  <view class="footer"></view>
+</view>
