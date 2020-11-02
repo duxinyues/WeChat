@@ -44,12 +44,12 @@ Page({
     calendar: [],
     userInfo: {},
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
-    shici:[]
+    shici: []
   },
 
-  render (day, pid) {
+  render(day, pid) {
     var day = new Date(day.getTime());
-    
+
     var today = calendar.Calendar.solar2lunar(
       day.getFullYear(),
       day.getMonth() + 1,
@@ -69,7 +69,7 @@ Page({
         console.log(item)
       }
     }
-    
+
     // Holiday
     if (today.IMonthCn + today.IDayCn in holiday.lunarMap) {
       today.lunarDay = holiday.lunarMap[today.IMonthCn + today.IDayCn]
@@ -85,7 +85,7 @@ Page({
     })
   },
 
-  setPoetry: function (item) {
+  setPoetry: function(item) {
     this.setData({
       'poetry.title': item.title,
       'poetry.cover': imgRoot + '/' + item.cover,
@@ -95,7 +95,7 @@ Page({
     });
   },
 
-  pick: function (pid, today, poetrys) {
+  pick: function(pid, today, poetrys) {
     var key = today.IMonthCn + today.IDayCn
 
     if (pid) {
@@ -114,10 +114,10 @@ Page({
     return this.pick(pid, today, poetrys)
   },
 
-  onLoad: function (options) {
+  onLoad: function(options) {
     var day = new Date();
     var pid = null;
-  
+
     if ('d' in options) {
       day = new Date(options.d);
     }
@@ -132,22 +132,24 @@ Page({
     jinrishici.load(result => {
       // 下面是处理逻辑示例
       console.log(result)
-      this.setData({ "shici": result.data })
+      this.setData({
+        "shici": result.data
+      })
     })
   },
 
-  changeDate: function (e) {
+  changeDate: function(e) {
     app.globalData.current = new Date(e.detail.value);
     this.render(app.globalData.current)
   },
 
-  changeLayout: function (e) {
+  changeLayout: function(e) {
     this.setData({
       uu: !this.data.uu
     })
   },
-
-  onShareAppMessage: function () {
+// 小程序转发好友
+  onShareAppMessage: function() {
     var d = utils.formatDate(app.globalData.current)
     var p = this.data.poetry.id;
     return {
@@ -157,8 +159,17 @@ Page({
       imageUrl: this.data.poetry.cover,
     }
   },
-
-  onPullDownRefresh: function () {
+  //   小程序转发朋友圈
+  onShareTimeline() {
+    var d = utils.formatDate(app.globalData.current)
+    var p = this.data.poetry.id;
+    return {
+      title: this.data.poetry.title + '·' + this.data.poetry.author,
+      path: '/pages/index/index?d=' + d + '&p=' + p,
+      imageUrl: this.data.poetry.cover,
+    }
+  },
+  onPullDownRefresh: function() {
     wx.showNavigationBarLoading()
     this.render(app.globalData.current)
     wx.stopPullDownRefresh()
@@ -166,21 +177,21 @@ Page({
   },
 
 
-  touchStart: function (e) {
+  touchStart: function(e) {
     touchDot = e.touches[0].pageY; // 获取触摸时的原点
 
     // 使用js计时器记录时间  
-    interval = setInterval(function () {
+    interval = setInterval(function() {
       time++;
     }, 1000);
   },
   // 触摸移动事件
-  touchMove: function (e) {
+  touchMove: function(e) {
     var touchMove = e.touches[0].pageY;
     this.setData({
       touching: true
     })
-  
+
     // console.log("touchMove:" + touchMove + " touchDot:" + touchDot + " diff:" + (touchMove - touchDot));
     // 向上滑动  
     if (touchMove - touchDot <= -200 && time < 1000) {
@@ -196,7 +207,7 @@ Page({
     }
   },
   // 触摸结束事件
-  touchEnd: function (e) {
+  touchEnd: function(e) {
     clearInterval(interval); // 清除setInterval
     time = 0;
 
