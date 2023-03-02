@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "nav-bar": "../component/topbar/index"
-  },
-  "navigationBarTextStyle": "white"
-}
